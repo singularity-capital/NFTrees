@@ -30,10 +30,29 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>NFTrees</title>
+
+    <style>
+      .loader {
+        border: 4px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 4px solid #000;
+        width: 80px;
+        height: 80px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+        margin: auto;
+        margin-top: 40vh;
+      }
+    
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      </style>
   </head>
   <body style = "margin: 0;">
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root"><div class="loader"></div></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

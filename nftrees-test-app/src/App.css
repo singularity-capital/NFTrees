@@ -8,3 +8,8 @@
   overflow:hidden;
   font-family: 'Comfortaa', 'Courier New';
 }
+
+.loading{
+  font-size: 100px;
+  color: #fff;
+}
