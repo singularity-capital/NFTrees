@@ -21,11 +21,11 @@ function Landing (props){
                     <div className = 'underline'></div>
                 </div>
                 <p className = 'information'>
-                    The first NFT-based carbon capture platform.
+                    The first NFT-backed carbon capture platform.
                     <br></br>
                     Bringing verifiable carbon credits to the cryptocurrency space.
                     <br></br>
-                    Displace your carbon emmissions with NFTrees.  
+                    Plant trees and displace your emmissions with carbon-negative NFTs.  
 
                 </p>
 
