@@ -3,6 +3,7 @@ import './Landing.css';
 import background from '../background.jpg';
 import { FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 function Landing (props){
 
@@ -10,8 +11,9 @@ function Landing (props){
         <div className = 'landingContainer' id = 'landing'>
             <div className = 'landingContent'>
                 <div className = 'links'>
-                    <a className = 'link'><FaTwitter size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
-                    <a className = 'link'><FaDiscord size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
+                    <a className = 'link' href = 'mailto:contact@nftrees.com' target = '_blank'><MdEmail size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
+                    <a className = 'link' href = 'https://twitter.com/NFTrees_' target = '_blank'><FaTwitter size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
+                    <a className = 'link' href = 'https://discord.gg/asZ6HNEF' target = '_blank'><FaDiscord size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
                 </div>
                 <div className = 'spacer'/>
                 <div className = 'title'>NFTrees</div>
@@ -19,18 +21,17 @@ function Landing (props){
                     <div className = 'underline'></div>
                 </div>
                 <p className = 'information'>
-                    The first NFT-based carbon credit platform.
+                    The first NFT-based carbon capture platform.
                     <br></br>
-                    Bringing verifiable carbon capture to the cryptocurrency space.
+                    Bringing verifiable carbon credits to the cryptocurrency space.
                     <br></br>
-                    Displace your protocol's carbon emmissions with NFTrees.  
+                    Displace your carbon emmissions with NFTrees.  
 
                 </p>
 
                 <p className = 'comingSoon'>
                         coming soon
                 </p>
-                <p className = 'contact'>contact us at team@NFTrees.com</p>
 
             </div>
         </div>

@@ -37,17 +37,19 @@
 .title{
     font-size: 100px;
     color: rgb(199, 199, 199);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
+
 
 .underlineContainer{
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .underline{
     width: 500px;
-    height: 4px;
+    height: 2px;
     background-color: rgb(199, 199, 199);
 }
 
@@ -56,14 +58,26 @@
     color: rgb(199, 199, 199);
 }
 
-.contact{
-    font-size: 15px;
-    color: rgb(199, 199, 199);
-}
-
 .comingSoon{
     font-size: 30px;
     color: rgb(199, 199, 199);
 }
 
+@media only screen and (max-width: 1000px) {
+    .title{
+        font-size: 60px;
+    }
 
+    .underline{
+        width: 200px;
+        height: 2px;
+    }
+
+    .comingSoon{
+        font-size: 15px;
+    }
+
+    .information{
+        font-size: 10px;
+    }
+  }
