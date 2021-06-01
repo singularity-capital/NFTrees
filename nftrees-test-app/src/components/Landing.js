@@ -10,11 +10,6 @@ function Landing (props){
     return(
         <div className = 'landingContainer' id = 'landing'>
             <div className = 'landingContent'>
-                <div className = 'links'>
-                    <a className = 'link' href = 'mailto:contact@nftrees.com' target = '_blank'><MdEmail size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
-                    <a className = 'link' href = 'https://twitter.com/NFTrees_' target = '_blank'><FaTwitter size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
-                    <a className = 'link' href = 'https://discord.gg/asZ6HNEF' target = '_blank'><FaDiscord size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
-                </div>
                 <div className = 'spacer'/>
                 <div className = 'title'>NFTrees</div>
                 <div className = 'underlineContainer'>

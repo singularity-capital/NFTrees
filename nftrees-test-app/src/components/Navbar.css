@@ -1,0 +1,76 @@
+.navContainer{
+    display: flex;
+    flex-direction: row;
+}
+.navbarLeft{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.calculateEmissions{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.calculateEmissions:hover{
+    color:#9dba94;
+    transition: .5s;
+}
+
+.space{
+    margin:auto;
+}
+
+.navbarRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.link{
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.icon:hover{
+    fill:rgb(107, 107, 107);
+    transition: .5s;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbarLeft{
+        font-size: 12px; 
+    }
+
+    .navbarRight{
+        flex-direction: column;
+    }
+
+    .link{
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    .logo{
+        text-decoration: none;
+        color: #fff;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .calculateEmissions{
+        text-decoration: none;
+        color: #fff;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+  }

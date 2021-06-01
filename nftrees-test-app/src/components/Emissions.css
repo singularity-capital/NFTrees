@@ -1,0 +1,144 @@
+.emissionsContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emissionsContent{
+    border: solid;
+    padding-top: 10px;
+    background-color: rgba(109, 107, 107, 0.664);
+    border-radius: 10px;
+    border-width: 1px;
+    border-color:rgb(109, 107, 107);
+    width: 50vw;
+    height: 40vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input{
+    padding-left: 5px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 25px;
+    width: 40%;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.calculate{
+    background-color:#7297A0;
+    color: #fff;
+    border-width: 1px;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.calculate:hover{
+    cursor:pointer;
+}
+
+.emissionsBottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.outputContainer{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    height: 75%;
+    width: 80%;
+    background-color: #6e8a67b0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.outputLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 2px;
+}
+
+.outputRight{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 2px;
+}
+
+.outputText{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10%;
+    height: 20px;
+}
+
+
+.site{
+    text-decoration: none;
+    font-size: 15px;
+    color: #6e8a67b0;
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1350px) {
+    .outputText{
+        font-size: 20px;
+    }
+    
+  }
+
+
+
+@media only screen and (max-width: 745px) {
+    .emissionsContent{
+        width: 80vw;
+    }
+
+    .input{
+        margin: 0;
+        width: 80%;
+    }
+
+    .calculate{
+        font-size: 10px;
+        width: 60%;
+        margin-top: 10px;
+        height: 25px;
+    
+    }
+
+    .emissionsBottom{
+        padding-top: 10px;
+    }
+
+    .outputContainer{
+        height: 60%;
+        width: 90%;
+        padding-top: 5%;
+    }
+
+    .outputText{
+        padding-top: 5%;
+        font-size: 10px;
+    }
+
+    .outputTextRight{
+        position: relative;
+        padding-top: 5%;
+        font-size: 10px;
+    }
+    
+    .site{
+        font-size: 10px;
+    }
+  }
+

@@ -1,27 +1,35 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
 import Landing from './components/Landing';
-import BounceLoader from 'react-spinners/BounceLoader'
+import Emissions from './components/Emissions';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
-  const [Loading, setLoading] = useState(true);
 
 
   useEffect(() => {
-    setLoading(false);
   }, [])
-
-  function loading () {
-    return(<BounceLoader size = {100}/>)
-  }
-
-  function notLoading () {
-    return(<Landing/>)
-  }
 
   return (
     <div className="App">
-      {Loading ? loading() : notLoading()}
+      <Router>
+        <Switch>
+          <Route exact path = '/'>
+            <Navbar/>
+            <Landing/>
+          </Route>
+
+          <Route exact path = '/emissions'>
+            <Navbar/>
+            <Emissions/>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
