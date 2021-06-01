@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Emissions.css';
 import { calculateAddressEmissions } from "ethereum-emissions-calculator";
 import CountUp from 'react-countup';
+import ClipLoader from "react-spinners/ClipLoader";
 
 
 function Emissions (props){
@@ -9,6 +10,7 @@ function Emissions (props){
     const[totalKg, setTotalKg] = useState(0);
     const[totalTransactions, setTotalTransactions] = useState(0);
     const[validInput, setValidInput] = useState();
+    const[loading, setLoading] = useState(false);
 
 
     const handleCalculateEmissions = async () => {
@@ -40,22 +42,22 @@ function Emissions (props){
         } else {
             setValidInput(false);
         }
-
-            console.log(totalGas);
-            console.log(totalKg);
-            console.log(totalTransactions);
     }
 
     function printData() {
-        if (validInput !== undefined){
-            if(validInput){
-                return(
-                    <div className = 'outputRight'>
-                        <div className = 'outputText'> <CountUp end = {totalGas} separator ={','}/> Gas </div>
-                        <div className = 'outputText'> <CountUp end = {totalKg/1000} separator ={','} decimals = {2}/> tonne</div>
-                        <div className = 'outputText'> <CountUp end = {totalTransactions} separator ={','}/> </div>
-                    </div>
-                )
+        if(loading){
+            <div>hello</div>
+        } else {
+            if (validInput !== undefined){
+                if(validInput){
+                    return(
+                        <div className = 'outputRight'>
+                            <div className = 'outputText'> <CountUp end = {totalGas} separator ={','}/> gas </div>
+                            <div className = 'outputText'> <CountUp end = {totalKg/1000} separator ={','} decimals = {2}/> tonne</div>
+                            <div className = 'outputText'> <CountUp end = {totalTransactions} separator ={','}/> </div>
+                        </div>
+                    )
+                }
             }
         }
     }
