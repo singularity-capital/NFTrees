@@ -11,6 +11,7 @@
   background-size: cover;
   overflow:hidden;
   font-family: 'Comfortaa', 'Courier New';
+  overflow: auto;
 }
 
 .loading{
