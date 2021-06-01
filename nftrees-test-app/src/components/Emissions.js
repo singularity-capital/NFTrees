@@ -22,7 +22,7 @@ function Emissions (props){
         const address = document.getElementById('input').value;
         var apiKey = '4QBBENHPDFF6FAQGF8E71NFE9RNZH1MCPW';
         console.log(address);
-        if(address.length === 42){
+        if((address.length === 42) & (address.slice(0, 2) === '0x')){
             for (var i = 0; i < 3; i++) {
                 const emissions = await calculateAddressEmissions({
                     transactionType: typeTransaction[i],
