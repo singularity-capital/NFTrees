@@ -7,27 +7,8 @@
     background-color:transparent;
 }
 
-/*.links{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.link{
-    padding-top: 30px;
-    padding-right: 30px;
-}
-
-.icon{
-}
-
-.icon:hover{
-    fill:rgb(107, 107, 107);
-    transition: .5s;
-}*/
-
 .spacer{
-    height: 25vh;
+    height: 20vh;
 }
 
 .landingContent{
@@ -54,11 +35,13 @@
 }
 
 .information{
+    margin-top: 20px;
     font-size: 20px;
     color: white;
 }
 
 .comingSoon{
+    margin-top: 20px;
     font-size: 30px;
     color: white;
 }

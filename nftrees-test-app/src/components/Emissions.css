@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .emissionsContainer{
     width: 100vw;
     display: flex;
@@ -48,6 +53,7 @@
     border-bottom-right-radius: 20px;
     line-height: 25px;
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 .calculate:hover{
