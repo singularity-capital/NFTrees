@@ -13,7 +13,7 @@ function Navbar (props){
         <div className = 'navContainer'>
             <div className = 'navbarLeft'>
             <NavLink exact className = "logo" to = '/'> logo {/*<img src = {} width = {'60px'} height = {'60px'}/>*/} </NavLink>
-                <NavLink exact className = "calculateEmissions" to = '/emissions'> Calculate my emissions </NavLink>
+                <NavLink exact className = "calculateEmissions" to = '/emissions'> Calculate Emissions </NavLink>
             </div>
             <div className = 'space'></div>
             <div className = 'navbarRight'>

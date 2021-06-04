@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import './Emissions.css';
 import { calculateAddressEmissions } from "ethereum-emissions-calculator";
 import CountUp from 'react-countup';
 import ClipLoader from "react-spinners/ClipLoader";
+
 
 
 function Emissions (props){
@@ -10,10 +11,21 @@ function Emissions (props){
     const[totalKg, setTotalKg] = useState(0);
     const[totalTransactions, setTotalTransactions] = useState(0);
     const[validInput, setValidInput] = useState();
-    const[loading, setLoading] = useState(false);
+    const[calculating, setCalculating] = useState(false);
+    var loading;
 
+    useEffect(() => {
+        loading = document.querySelector('#loading');
+      },[calculating, validInput]);
 
     const handleCalculateEmissions = async () => {
+        setCalculating(true);
+        setTotalGas(undefined);
+        setTotalKg(undefined);
+        setTotalTransactions(undefined);
+        setValidInput(undefined);
+
+        loading.style.display = 'block';
         var gas = 0;
         var co2 = 0;
         var transactions = 0;
@@ -42,22 +54,33 @@ function Emissions (props){
         } else {
             setValidInput(false);
         }
+        loading.style.display = 'none';
+        setCalculating(false);
     }
 
     function printData() {
-        if(loading){
-            <div>hello</div>
-        } else {
-            if (validInput !== undefined){
-                if(validInput){
-                    return(
-                        <div className = 'outputRight'>
-                            <div className = 'outputText'> <CountUp end = {totalGas} separator ={','}/> gas </div>
-                            <div className = 'outputText'> <CountUp end = {totalKg/1000} separator ={','} decimals = {2}/> tonne</div>
-                            <div className = 'outputText'> <CountUp end = {totalTransactions} separator ={','}/> </div>
-                        </div>
-                    )
-                }
+
+        if (validInput !== undefined){
+            if(validInput){
+                return(
+                    <div style= {{display: 'flex', flexDirection: 'column', width: '100%', height: '100%'}}>
+                        <div className = 'outputTextRight'> <CountUp end = {totalTransactions} separator ={','}/> </div>
+                        <div className = 'outputTextRight'> <CountUp end = {totalGas} separator ={','}/> gas </div>
+                        <div className = 'outputTextRight'> <CountUp end = {totalKg} separator ={','} decimals = {2}/> kg</div>
+                    </div>
+                )
+            }
+        }
+    }
+
+    function printSummary() {
+        if (validInput !== undefined){
+            if(validInput){
+                return(
+                    <div className = 'summary'>
+                        It would take an adult tree {Math.round(totalKg/21)} years to to absorb your emissions. Go carbon negative and reduce your carbon footprint with NFTrees.
+                    </div>
+                )
             }
         }
     }
@@ -68,20 +91,24 @@ function Emissions (props){
             <div className = 'emissionsContent'>
                 <input className = 'input' 
                     id = 'input' 
-                    style = {validInput === false ? {borderColor : 'red', transition : '1s'} : {}} 
+                    style = {validInput === false ? {borderColor : 'rgba(255, 62, 62, 0.63)', transition : '1s'} : {}} 
                     placeholder = 'Ethereum address'
                 />
-                <button onClick = {handleCalculateEmissions} className = 'calculate'> calculate emissions</button>
+                <button onClick = {handleCalculateEmissions} className = 'calculate'> calculate </button>
                 <div className = 'emissionsBottom'>
                     <div className = 'outputContainer'>
                         <div className = 'outputLeft'>
-                            <div className = 'outputText'> Total gas used:</div>
-                            <div className = 'outputText'> Total CO2 produced:</div>
-                            <div className = 'outputText'> Total transactions:</div>
+                            <div className = 'outputTextLeft'> Transactions:</div>
+                            <div className = 'outputTextLeft'> Gas used:</div>
+                            <div className = 'outputTextLeft'> CO2 produced:</div>
                         </div>
-                        {printData()}
+                        <div className = 'outputRight'>
+                            <div className = 'loading' id = 'loading' style= {{display: 'none', color: 'blue'}}><ClipLoader className = 'load' color = {'#fff'}/></div>
+                            {printData()}
+                        </div>
                     </div>
                 </div>
+                {printSummary()}
             </div>
             <div className = 'site'> calculated with <a href = 'https://carbon.fyi/' target = '_blank' style = {{color: '#6e8a67b0', textDecoration: 'none'}}>carbon.fyi</a> </div>
         </div>
