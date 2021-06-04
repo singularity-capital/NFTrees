@@ -79,7 +79,7 @@ function Emissions (props){
                 return(
                     <div>
                         <div className = 'summary'>
-                            It would take an adult tree {Math.round(totalKg/21)} years to to absorb your emissions. Go carbon negative and reduce your carbon footprint with NFTrees.
+                            It would take an adult tree {Math.round(totalKg/21)} years to absorb your emissions. Reduce your carbon footprint with NFTrees.
                         </div>
                         <div style = {{color: '#fff', paddingTop: '10px'}}>
                             coming soon

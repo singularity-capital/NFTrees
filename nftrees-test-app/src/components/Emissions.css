@@ -47,9 +47,12 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     line-height: 25px;
+    padding-right: 10px;
 }
 
 .calculate:hover{
+    color: rgb(199, 199, 199);
+    transition: 0.5s;
     cursor:pointer;
 }
 

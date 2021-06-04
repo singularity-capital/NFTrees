@@ -22,7 +22,7 @@
 }
 
 .calculateEmissions:hover{
-    color:#9dba94;
+    color:rgb(199, 199, 199);
     transition: .5s;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .icon:hover{
-    fill:rgb(107, 107, 107);
+    fill:rgb(199, 199, 199);
     transition: .5s;
 }
 

@@ -4,7 +4,6 @@
     padding-right: 6px;
     margin: 0;
     width: 100vw;
-    height: 80vh;
     background-color:transparent;
 }
 
@@ -38,7 +37,7 @@
 
 .title{
     font-size: 100px;
-    color: rgb(199, 199, 199);
+    color: white;
     font-family: 'Inter', sans-serif;
 }
 
@@ -51,17 +50,17 @@
 .underline{
     width: 500px;
     height: 2px;
-    background-color: rgb(199, 199, 199);
+    background-color: white;
 }
 
 .information{
     font-size: 20px;
-    color: rgb(199, 199, 199);
+    color: white;
 }
 
 .comingSoon{
     font-size: 30px;
-    color: rgb(199, 199, 199);
+    color: white;
 }
 
 @media only screen and (max-width: 745px) {

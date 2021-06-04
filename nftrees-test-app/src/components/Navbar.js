@@ -17,9 +17,9 @@ function Navbar (props){
             </div>
             <div className = 'space'></div>
             <div className = 'navbarRight'>
-                <a className = 'link' href = 'mailto:contact@nftrees.com'><MdEmail size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
-                <a className = 'link' href = 'https://twitter.com/NFTrees_' target = '_blank'><FaTwitter size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
-                <a className = 'link' href = 'https://discord.gg/asZ6HNEF' target = '_blank'><FaDiscord size={30} fill = {'rgb(199, 199, 199)'} className = 'icon'/></a>
+                <a className = 'link' href = 'mailto:contact@nftrees.com'><MdEmail size={30} fill = {'#fff'} className = 'icon'/></a>
+                <a className = 'link' href = 'https://twitter.com/NFTrees_' target = '_blank'><FaTwitter size={30} fill = {'#fff'} className = 'icon'/></a>
+                <a className = 'link' href = 'https://discord.gg/asZ6HNEF' target = '_blank'><FaDiscord size={30} fill = {'#fff'} className = 'icon'/></a>
             </div>
         </div>
     );
