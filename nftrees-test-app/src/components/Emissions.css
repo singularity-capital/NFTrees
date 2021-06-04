@@ -132,10 +132,6 @@
 }
 
 @media only screen and (max-width: 745px) {
-    .outputTextLeft, .outputTextRight{
-
-    }
-
     .emissionsContent{
         width: 300px;
     }
