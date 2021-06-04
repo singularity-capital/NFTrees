@@ -120,6 +120,7 @@
     color: #6e8a67b0;
     position: absolute;
     bottom: 0;
+    padding-bottom: 5px;
 }
 
 .summary{
@@ -129,13 +130,6 @@
     padding-right: 50px;
 
 }
-
-/*@media only screen and (max-width: 1350px) {
-    .outputText{
-        font-size: 20px;
-    }
-    
-  }*/
 
 
 
