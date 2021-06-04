@@ -66,7 +66,7 @@ function Emissions (props){
                     <div style= {{display: 'flex', flexDirection: 'column', width: '100%', height: '100%'}}>
                         <div className = 'outputTextRight'> <CountUp end = {totalTransactions} separator ={','}/> </div>
                         <div className = 'outputTextRight'> <CountUp end = {totalGas} separator ={','}/> gas </div>
-                        <div className = 'outputTextRight'> <CountUp end = {totalKg} separator ={','} decimals = {2}/> kg</div>
+                        <div className = 'outputTextRight'> <CountUp end = {totalKg} separator ={','}/> kg</div>
                     </div>
                 )
             }
@@ -78,7 +78,7 @@ function Emissions (props){
             if(validInput){
                 return(
                     <div className = 'summary'>
-                        It would take an adult tree {Math.round(totalKg/21)} years to to absorb your emissions. Go carbon negative and reduce your carbon footprint with NFTrees.
+                        It would take an adult tree {Math.round(totalKg/21)} years to to absorb your emissions. Go carbon negative and reduce your carbon footprint with NFTrees. Coming soon.
                     </div>
                 )
             }
@@ -99,8 +99,8 @@ function Emissions (props){
                     <div className = 'outputContainer'>
                         <div className = 'outputLeft'>
                             <div className = 'outputTextLeft'> Transactions:</div>
-                            <div className = 'outputTextLeft'> Gas used:</div>
-                            <div className = 'outputTextLeft'> CO2 produced:</div>
+                            <div className = 'outputTextLeft'> Gas Spent:</div>
+                            <div className = 'outputTextLeft'> CO<sub>2</sub> Produced:</div>
                         </div>
                         <div className = 'outputRight'>
                             <div className = 'loading' id = 'loading' style= {{display: 'none', color: 'blue'}}><ClipLoader className = 'load' color = {'#fff'}/></div>
