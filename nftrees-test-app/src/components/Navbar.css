@@ -17,7 +17,7 @@
 .calculateEmissions{
     text-decoration: none;
     color: #fff;
-    padding-top: 30px;
+    padding-top: 42px;
     padding-left: 30px;
 }
 
@@ -46,7 +46,7 @@
     transition: .5s;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 745px) {
     .navbarLeft{
         font-size: 12px; 
     }
@@ -70,7 +70,7 @@
     .calculateEmissions{
         text-decoration: none;
         color: #fff;
-        padding-top: 20px;
+        padding-top: 32px;
         padding-left: 20px;
     }
   }

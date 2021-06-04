@@ -5,14 +5,14 @@ import { FaCopy, FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import {NavLink} from "react-router-dom";
-import logo from './logo.jpg';
+import logo from './logo_white.png';
 
 function Navbar (props){
 
     return(
         <div className = 'navContainer'>
             <div className = 'navbarLeft'>
-            <NavLink exact className = "logo" to = '/'> logo {/*<img src = {} width = {'60px'} height = {'60px'}/>*/} </NavLink>
+            <NavLink exact className = "logo" to = '/'> <img src = {logo} width = {'40px'} height = {'40px'}/> </NavLink>
                 <NavLink exact className = "calculateEmissions" to = '/emissions'> Calculate Emissions </NavLink>
             </div>
             <div className = 'space'></div>
