@@ -16,7 +16,7 @@ function Emissions (props){
 
     useEffect(() => {
         loading = document.querySelector('#loading');
-      },[calculating, validInput]);
+    }, [calculating, validInput]);
 
     const handleCalculateEmissions = async () => {
         setCalculating(true);
@@ -115,7 +115,7 @@ function Emissions (props){
                 </div>
                 {printSummary()}
             </div>
-            <div className = 'site'> calculated with <a href = 'https://carbon.fyi/' target = '_blank' style = {{color: '#6e8a67b0', textDecoration: 'none'}}>carbon.fyi</a> </div>
+            <div className = 'site'> calculated with <a href = 'https://carbon.fyi/' target = '_blank' rel = "noreferrer" style = {{color: '#6e8a67b0', textDecoration: 'none'}}> carbon.fyi </a></div>
         </div>
     );
 }
