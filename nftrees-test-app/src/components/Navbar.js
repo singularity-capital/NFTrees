@@ -18,15 +18,9 @@ function Navbar (props){
             </div>
             <div className = 'space'></div>
             <div className = 'navbarRight'>
-<<<<<<< Updated upstream
-                <a className = 'logoLink' href = 'mailto:contact@nftrees.com'><MdEmail size = {30} fill = {'#fff'} className = 'icon'/></a>
-                <a className = 'logoLink' href = 'https://twitter.com/NFTrees_' target = '_blank' rel = "noreferrer"><FaTwitter size={30} fill = {'#fff'} className = 'icon'/></a>
-                <a className = 'logoLink' href = 'https://discord.gg/asZ6HNEF' target = '_blank' rel = "noreferrer"><FaDiscord size={30} fill = {'#fff'} className = 'icon'/></a>
-=======
-                <a className = 'link' href = 'mailto:contact@nftrees.com'><MdEmail size={30} fill = {'#fff'} className = 'icon'/></a>
-                <a className = 'link' href = 'https://twitter.com/NFTrees_' target = '_blank'><FaTwitter size={30} fill = {'#fff'} className = 'icon'/></a>
-                <a className = 'link' href = 'https://discord.gg/4Ke8vjmFey' target = '_blank'><FaDiscord size={30} fill = {'#fff'} className = 'icon'/></a>
->>>>>>> Stashed changes
+                <a className = 'logoLink' href = 'mailto:contact@nftrees.com'><MdEmail size={30} fill = {'#fff'} className = 'icon'/></a>
+                <a className = 'logoLink' href = 'https://twitter.com/NFTrees_' target = '_blank'><FaTwitter size={30} fill = {'#fff'} className = 'icon'/></a>
+                <a className = 'logoLink' href = 'https://discord.gg/4Ke8vjmFey' target = '_blank'><FaDiscord size={30} fill = {'#fff'} className = 'icon'/></a>
             </div>
         </div>
     );
