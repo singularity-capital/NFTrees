@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import background from '../background.jpg';
+import background from '../assets/background.jpg';
 import { FaCopy, FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';

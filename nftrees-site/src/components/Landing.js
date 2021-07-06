@@ -1,6 +1,6 @@
 import React from 'react';
 import './Landing.css';
-import background from '../background.jpg';
+import background from '../assets/background.jpg';
 import { FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
