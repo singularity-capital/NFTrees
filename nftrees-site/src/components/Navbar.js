@@ -10,11 +10,11 @@ function Navbar (props){
             {/* display navbar links */}
             <NavLink exace className = "navbar-Brand" to = '/'> <img src = {logo} height = {50}/> </NavLink>
             <p className = 'spacer'/>
-            <NavLink exact activeClassName = "active-navbar-Link" className = "navbar-Link" to = '/home'> Home </NavLink>
+            <NavLink exact activeClassName = "active-navbar-Link" className = "navbar-Link" to = '/home'> HOME </NavLink>
             <p className = 'spacer'/>
-            <NavLink exact activeClassName = "active-navbar-Link" className = "navbar-Link" to = '/about'> About </NavLink>
+            <NavLink exact activeClassName = "active-navbar-Link" className = "navbar-Link" to = '/about'> ABOUT </NavLink>
             <p className = 'spacer'/>
-            <a className = "navbar-Link" href = 'https://docs.nftrees.com/'> Docs </a>
+            <a className = "navbar-Link" href = 'https://docs.nftrees.com/'> DOCS </a>
             <p className = 'spacer'/>
 
             {/* display user address */}

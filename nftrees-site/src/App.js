@@ -6,6 +6,7 @@ import Emissions from './components/Emissions';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -34,6 +35,7 @@ function App() {
           <Route exact path = '/home'>
             <Navbar/>
             <Home/>
+            <Footer/>
           </Route>
 
           <Route exact path = '/about'>
