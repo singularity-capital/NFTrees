@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Landing_Navbar from './components/Landing_Navbar';
 import Landing from './components/Landing';
 import Emissions from './components/Emissions';
+import Home from './components/Home';
+import About from './components/About';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,13 +21,21 @@ function App() {
       <Router>
         <Switch>
           <Route exact path = '/'>
-            <Navbar/>
+            <Landing_Navbar/>
             <Landing/>
           </Route>
 
           <Route exact path = '/emissions'>
-            <Navbar/>
+            <Landing_Navbar/>
             <Emissions/>
+          </Route>
+
+          <Route exact path = '/home'>
+
+          </Route>
+
+          <Route exact path = '/about'>
+
           </Route>
         </Switch>
       </Router>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './Landing_Navbar.css';
 import background from '../assets/background.jpg';
 import { FaCopy, FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
