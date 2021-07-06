@@ -4,8 +4,6 @@ import { calculateAddressEmissions } from "ethereum-emissions-calculator";
 import CountUp from 'react-countup';
 import ClipLoader from "react-spinners/ClipLoader";
 
-
-
 function Emissions (props){
     const[totalGas, setTotalGas] = useState(0);
     const[totalKg, setTotalKg] = useState(0);
@@ -32,8 +30,7 @@ function Emissions (props){
         var typeTransaction = ['eth', 'erc20', 'erc721'];
 
         const address = document.getElementById('input').value;
-        const apiKey = process.env.ETHERSCAN_API_KEY;
-        console.log(address);
+        const apiKey = process.env.REACT_APP_ETHERSCAN_API_KEY;
         if((address.length === 42) & (address.slice(0, 2) === '0x')){
             for (var i = 0; i < 3; i++) {
                 const emissions = await calculateAddressEmissions({
