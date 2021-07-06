@@ -32,7 +32,7 @@ function Emissions (props){
         var typeTransaction = ['eth', 'erc20', 'erc721'];
 
         const address = document.getElementById('input').value;
-        var apiKey = '4QBBENHPDFF6FAQGF8E71NFE9RNZH1MCPW';
+        const apiKey = process.env.ETHERSCAN_API_KEY;
         console.log(address);
         if((address.length === 42) & (address.slice(0, 2) === '0x')){
             for (var i = 0; i < 3; i++) {
