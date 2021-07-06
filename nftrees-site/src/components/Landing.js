@@ -1,11 +1,6 @@
 import React from 'react';
 import './Landing.css';
-/*
-import background from '../assets/background.jpg';
-import { FaDiscord } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
-*/
+import {NavLink} from "react-router-dom";
 
 function Landing (props){
 
@@ -26,9 +21,10 @@ function Landing (props){
 
                 </p>
 
-                <p className = 'comingSoon'>
-                        coming soon
-                </p>
+                <div className = 'buttonContainer'>
+                        <NavLink exact className = 'landingButton' to = '/home'> <div className = 'landingButtonText'> Learn more </div> </NavLink>
+                        {/*<button className = 'landingButton'> App coming soon </button>*/}
+                </div>
 
             </div>
         </div>

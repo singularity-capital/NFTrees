@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+.homeContainer{
+    width: 100vw;
+    background-color: blue;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import Landing_Navbar from './components/Landing_Navbar';
 import Landing from './components/Landing';
 import Emissions from './components/Emissions';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import {
@@ -31,11 +32,13 @@ function App() {
           </Route>
 
           <Route exact path = '/home'>
-
+            <Navbar/>
+            <Home/>
           </Route>
 
           <Route exact path = '/about'>
-
+            <Navbar/>
+            <About/>
           </Route>
         </Switch>
       </Router>

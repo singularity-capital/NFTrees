@@ -1,7 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
 .landingContainer{
     padding: 0;
-    padding-left: 6px;
-    padding-right: 6px;
     margin: 0;
     width: 100vw;
     background-color:transparent;
@@ -40,10 +42,35 @@
     color: white;
 }
 
-.comingSoon{
+.buttonContainer{
     margin-top: 20px;
-    font-size: 30px;
-    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.landingButton{
+    height: 40px;
+    width: 175px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+    color: #6D81B5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.landingButton:hover{
+    background-color: rgb(199, 199, 199);
+    transition: 0.5s;
+}
+
+.landingButtonText{
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 745px) {
