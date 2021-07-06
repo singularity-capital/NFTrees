@@ -5,7 +5,7 @@ import { FaCopy, FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import {NavLink} from "react-router-dom";
-import logo from './logo_white.png';
+import logo from '../assets/logo_white.png';
 
 function Navbar (props){
 
