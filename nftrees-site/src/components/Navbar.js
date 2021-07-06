@@ -18,7 +18,9 @@ function Navbar (props){
             <p className = 'spacer'/>
 
             {/* display user address */}
-            <p className = "address my-auto"> app </p>
+            <a className = 'enterAppButton'> 
+                <div className = 'enterAppButtonText'> ENTER APP </div>
+            </a>
 
         </nav>
     );

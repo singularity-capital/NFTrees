@@ -35,3 +35,30 @@
     margin-left: auto;
 }
 
+.enterAppButton{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: flex;
+    height: 40px;
+    width: 175px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(199, 199, 199);
+    color: #fff;
+    background-color: #74CA86;
+}
+
+.enterAppButton:hover{
+    cursor: pointer;
+    background-color: #74ca87c4;
+    transition: 0.5s;
+
+}
+
+.enterAppButtonText{
+    margin: auto;
+    color: #fff;
+}
+
