@@ -5,6 +5,7 @@
 
 .homeContainer{
     width: 100vw;
+    height: auto;
     background-color: #F7F8FA;
     padding-top: 50px;
 }

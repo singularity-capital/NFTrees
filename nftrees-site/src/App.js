@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Footer from './components/Footer';
+//import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,14 +35,17 @@ function App() {
           </Route>
 
           <Route exact path = '/home'>
+            <ScrollToTop/>
             <Navbar/>
             <Home/>
             <Footer/>
           </Route>
 
           <Route exact path = '/about'>
+            <ScrollToTop/>
             <Navbar/>
             <About/>
+            <Footer/>
           </Route>
         </Switch>
       </Router>
