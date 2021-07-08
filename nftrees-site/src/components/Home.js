@@ -19,7 +19,7 @@ function Home (props){
             <div className = 'contentTop'> 
                 <div className = 'contentText'>
                     <div className = 'contentWrapper'>
-                        <h2 className = 'contentHeader'> What we do </h2>
+                        <p className = 'contentHeader'> What we do </p>
                         <p className = 'contentParagraph'>
                             Our platform functions as the bridge between Web3 and the carbon markets, 
                             enabling on-chain liquidity to have a direct and immediate impact on Earth's 
@@ -42,7 +42,7 @@ function Home (props){
 
                 <div className = 'contentText'> 
                     <div className = 'contentWrapper'>
-                        <h2 className = 'contentHeader'> Our platform </h2>
+                        <p className = 'contentHeader'> Our platform </p>
                         <p className = 'contentParagraph'>
                             NFTrees are the first NFT-backed carbon credits available to the blockchain space. 
                             This allows anyone with a Web3 wallet to purchase retired carbon credits and offset 
