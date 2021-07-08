@@ -14,7 +14,7 @@ function Navbar (props){
             <div className = 'navbarLeft'>
                 <NavLink exact className = "logo" to = '/'> <img src = {logo} alt = "logo" width = {'40px'} height = {'40px'}/> </NavLink>
                 <NavLink exact className = "textLink" to = '/emissions'> Calculate Emissions </NavLink>
-                <a className = 'textLink' href = 'https://docs.nftrees.com' target = '_blank' rel = "noreferrer"> Docs </a>
+                <a className = 'textLink' href = 'https://docs.nftrees.com' target = '_blank'> Docs </a>
             </div>
             <div className = 'space'></div>
             <div className = 'navbarRight'>

@@ -6,7 +6,6 @@ import amazonImage from '../assets/amazon.jpeg';
 
 function Home (props){
     
-    
     return(
         <div className = 'homeContainer'>
             <div className = 'bannerTop'>
