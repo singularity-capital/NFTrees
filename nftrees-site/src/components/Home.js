@@ -5,8 +5,8 @@ import monkeyImage from '../assets/monkey.jpeg';
 import amazonImage from '../assets/amazon.jpeg';
 
 function Home (props){
-
     return(
+
         <div className = 'homeContainer'>
             <div className = 'bannerTop'>
                 NFTrees is an organization that strives to create 
@@ -22,7 +22,7 @@ function Home (props){
                         <p className = 'contentParagraph'>
                             Our platform functions as the bridge between Web3 and the carbon markets, 
                             enabling on-chain liquidity to have a direct and immediate impact on Earth's 
-                            most valuable ecosystems. <br/> <br/>By giving individuals the power to purchase NFT-backed 
+                            most valuable ecosystems. <br/> <br/> By giving individuals the power to purchase NFT-backed 
                             carbon credits with their crypto assets, NFTrees is able to effectively combat climate 
                             change by offsetting carbon emissions, planting trees, and spreading awareness.
                         </p>
