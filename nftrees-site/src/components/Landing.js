@@ -5,6 +5,7 @@ import {NavLink} from "react-router-dom";
 function Landing (props){
 
     return(
+        
         <div className = 'landingContainer' id = 'landing'>
             <div className = 'landingContent'>
                 <div className = 'spacer'/>

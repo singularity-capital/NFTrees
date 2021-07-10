@@ -1,9 +1,3 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    /*font-weight: 400;*/
-}
-
 .homeContainer{
     width: 100vw;
     height: auto;

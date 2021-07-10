@@ -7,7 +7,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Footer from './components/Footer';
-//import ScrollToTop from './components/ScrollToTop';
 import ScrollToTop from './components/ScrollToTop';
 import {
   BrowserRouter as Router,
@@ -25,13 +24,17 @@ function App() {
       <Router>
         <Switch>
           <Route exact path = '/'>
-            <Landing_Navbar/>
-            <Landing/>
+            <div className = 'landingBackground'>
+              <Landing_Navbar/>
+              <Landing/>
+            </div>
           </Route>
 
           <Route exact path = '/emissions'>
-            <Landing_Navbar/>
-            <Emissions/>
+            <div className = 'landingBackground'>
+             <Landing_Navbar/>
+              <Emissions/>
+            </div>
           </Route>
 
           <Route exact path = '/home'>

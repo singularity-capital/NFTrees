@@ -1,20 +1,23 @@
-*{
-  font-family: 'Comfortaa', 'Courier New';
+* {
+  box-sizing: border-box;
 }
 
 .App {
   height: auto;
   width: 100%;
   text-align: center;
-  background-image: url('./assets/background.jpg');
-  background-position: center;
-  background-size: cover;
   overflow:hidden;
-  font-family: 'Comfortaa', 'Courier New';
+  font-family: 'Montserrat', sans-serif;
   overflow-y: auto;
 }
 
-.loading{
+.landingBackground {
+  background-image: url('./assets/background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.loading {
   font-size: 100px;
   color: #fff;
 }
