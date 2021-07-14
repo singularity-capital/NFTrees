@@ -36,7 +36,7 @@
     height: 350px;
 }
 
-.contentWrapper{
+.contentWrapperHome{
     height: 250px;
     margin-top: 20px;;
     margin-bottom: auto;
@@ -55,7 +55,7 @@
     line-height: 24px;
 }
 
-.spacer{
+.homeSpacer{
     width: 50px;
 }
 
@@ -80,8 +80,7 @@
     margin-top: 80px;
     background-image: url('../assets/banner_image_1.jpg');
     background-size: cover;
-    height: 350px;;
-    background-color: blue;
+    height: 350px;
     padding-top: 125px;
 }
 

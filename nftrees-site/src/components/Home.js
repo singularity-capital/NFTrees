@@ -17,7 +17,7 @@ function Home (props){
 
             <div className = 'contentTop'> 
                 <div className = 'contentText'>
-                    <div className = 'contentWrapper'>
+                    <div className = 'contentWrapperHome'>
                         <p className = 'contentHeader'> What we do </p>
                         <p className = 'contentParagraph'>
                             Our platform functions as the bridge between Web3 and the carbon markets, 
@@ -29,7 +29,7 @@ function Home (props){
                     </div>
                 </div>
 
-                <div className = 'spacer'/>
+                <div className = 'homeSpacer'/>
 
                 <div className = 'contentImage'> <img src = {amazonImage} height = {350} width = {500}/> </div>
             </div>
@@ -37,10 +37,10 @@ function Home (props){
             <div className = 'contentBottom'>
                 <div className = 'contentImage'> <img src = {monkeyImage} height = {350} width = {500}/> </div>
                 
-                <div className = 'spacer'/>
+                <div className = 'homeSpacer'/>
 
                 <div className = 'contentText'> 
-                    <div className = 'contentWrapper'>
+                    <div className = 'contentWrapperHome'>
                         <p className = 'contentHeader'> Our platform </p>
                         <p className = 'contentParagraph'>
                             NFTrees are the first NFT-backed carbon credits available to the blockchain space. 

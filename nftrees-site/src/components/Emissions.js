@@ -23,7 +23,7 @@ function Emissions (props){
         setTotalTransactions(undefined);
         setValidInput(undefined);
 
-        loading.style.display = 'block';
+        loading.style.display = 'flex';
         var gas = 0;
         var co2 = 0;
         var transactions = 0;
@@ -74,7 +74,7 @@ function Emissions (props){
         if (validInput !== undefined){
             if(validInput){
                 return(
-                    <div>
+                    <div className = 'summaryContainer'>
                         <div className = 'summary'>
                             It would take an adult tree {Math.round(totalKg/21)} years to absorb your emissions. Offset your carbon footprint with NFTrees.
                         </div>

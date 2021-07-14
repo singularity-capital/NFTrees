@@ -24,11 +24,22 @@ function About (props){
             <div className = 'contentTopAbout'>
                 <div className = 'contentTextAbout'>
                     <div className = 'contentWrapper'>
+                        <p> The base-level NFTree costs $10 and represents the following: </p>
+                        <ul>
+                            <li> 1 tonne of carbon offset </li>
+                            <li> 1 tree planted </li>
+                            <li> NFT mint/trnasfer emissions offset </li>
+                        </ul>
+                        <p>
+                            Higher-level NFTrees are scaled versions of the above and represent larger environmental contributions. 
+                            <br/><br/>
+                            An additional 5% will be added to cover business expenses.
+                        </p>
                         
                     </div>
                 </div>
 
-                <div className = 'spacer'/>
+                <div className = 'aboutSpacer'/>
 
                 <div className = 'contentImageAbout'/>
 

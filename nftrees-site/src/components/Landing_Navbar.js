@@ -12,11 +12,11 @@ function Navbar (props){
     return(
         <div className = 'navContainer'>
             <div className = 'navbarLeft'>
-                <NavLink exact className = "logo" to = '/'> <img src = {logo} alt = "logo" width = {'40px'} height = {'40px'}/> </NavLink>
+                <NavLink exact className = "logo" to = '/'> <img src = {logo} alt = "logo" width = {50} height = {50}/> </NavLink>
                 <NavLink exact className = "textLink" to = '/emissions'> CALCULATE EMISSIONS </NavLink>
                 <a className = 'textLink' href = 'https://docs.nftrees.com' target = '_blank'> DOCS </a>
             </div>
-            <div className = 'space'></div>
+            <div className = 'space'/>
             <div className = 'navbarRight'>
                 <a className = 'logoLink' href = 'mailto:contact@nftrees.com'><MdEmail size={30} fill = {'#fff'} className = 'icon'/></a>
                 <a className = 'logoLink' href = 'https://twitter.com/NFTrees_' target = '_blank'><FaTwitter size={30} fill = {'#fff'} className = 'icon'/></a>

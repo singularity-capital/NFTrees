@@ -37,7 +37,7 @@
 }
 
 .footerCol {
-    height:130px;
+    height:180px;
     width: 200px;
 }
 
@@ -60,5 +60,7 @@
 }
 
 .copyright {
+    margin-top: 5px;
+    font-size: 10px;
     bottom: 0;
 }

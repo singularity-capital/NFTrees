@@ -1,8 +1,5 @@
-*{
-    font-size: 15px;
-}
-
 .navbar{
+    font-size: 15px;
     height: 75px;
     display:flex;
     flex-direction: row;
@@ -10,6 +7,11 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.spacer {
+    width: 50px;
+}
+
 
 .navbar-Brand{
     height: 50px;
@@ -19,7 +21,6 @@
 
 .navbar-Link{
     color: #000;
-    margin-left: 20px;
     margin-top: auto;
     margin-bottom: auto;
     text-decoration: none;

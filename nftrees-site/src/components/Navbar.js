@@ -19,9 +19,8 @@ function Navbar (props){
 
             {/* display user address */}
             <a className = 'enterAppButton'> 
-                <div className = 'enterAppButtonText'> ENTER APP </div>
+                <div className = 'enterAppButtonText'> APP COMING SOON </div>
             </a>
-
         </nav>
     );
 }

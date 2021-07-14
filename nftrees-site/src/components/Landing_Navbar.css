@@ -1,8 +1,10 @@
 .navContainer{
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     height: 75px;
 }
+
 .navbarLeft{
     display: flex;
     flex-direction: row;
@@ -11,15 +13,18 @@
 .logo{
     text-decoration: none;
     color: #fff;
-    padding-top: 30px;
+    height: 50px;
     padding-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .textLink{
     text-decoration: none;
     color: #fff;
-    padding-top: 42px;
-    padding-left: 30px;
+    padding-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .textLink:hover{
@@ -38,8 +43,10 @@
 }
 
 .logoLink{
-    padding-top: 30px;
     padding-right: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .icon:hover{
@@ -73,5 +80,11 @@
         color: #fff;
         padding-top: 32px;
         padding-left: 20px;
+    }
+
+    .logoLink{
+        padding-top: 30px;
+        padding-right: 30px;
+        height: 30px;
     }
   }
