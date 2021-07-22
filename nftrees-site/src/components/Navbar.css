@@ -63,3 +63,61 @@
     color: #fff;
 }
 
+@media only screen and (max-width: 1200px) {
+    .enterAppButton {
+        display: none;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .navbar{
+        font-size: 10px; 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navbar-Brand{
+        height: 40px;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 20px;
+    }
+
+    .logoImageHome{
+        text-decoration: none;
+        color: #fff;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .navbar-Link{
+        text-decoration: none;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 20px;
+    }
+
+    .spacer {
+        width: 0px;
+    }
+
+    .enterAppButton{
+        font-size: 10px;
+        margin-right: 20px;
+        height: 30px;
+        width: 125px;
+    }
+    
+    .enterAppButton:hover{
+        cursor: pointer;
+        background-color: #74ca87c4;
+        transition: 0.5s;
+    
+    }
+    
+    .enterAppButtonText{
+        margin: auto;
+        color: #fff;
+    }
+
+  }

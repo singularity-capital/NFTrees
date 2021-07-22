@@ -8,7 +8,7 @@ function Navbar (props){
     return(
         <nav className = 'navbar'>
             {/* display navbar links */}
-            <NavLink exact className = "navbar-Brand" to = '/'> <img src = {logo} height = {50}/> </NavLink>
+            <NavLink exact className = "navbar-Brand" to = '/'> <img className = 'logoImageHome' src = {logo} height = {50}/> </NavLink>
             <p className = 'spacer'/>
             <NavLink exact activeClassName = "active-navbar-Link" className = "navbar-Link" to = '/home'> HOME </NavLink>
             <p className = 'spacer'/>

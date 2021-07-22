@@ -69,25 +69,33 @@
     margin-top: 10px;
 }
 
-@media only screen and (max-width: 745px) {
-    .spacer{
-        height: 10vh;
+@media only screen and (max-width: 1200px) {
+    .title{
+        font-size: 80px;
     }
 
+    .underline{
+        width: 400px;
+        height: 2px;
+    }
+
+    .information{
+        font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
     .title{
         font-size: 60px;
     }
 
     .underline{
-        width: 200px;
+        width: 300px;
         height: 2px;
     }
-
-    .comingSoon{
-        font-size: 15px;
-    }
-
+    
     .information{
         font-size: 10px;
     }
+
   }

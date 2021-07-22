@@ -53,7 +53,7 @@
     line-height: 25px;
     padding-right: 10px;
     padding-left: 10px;
-    height: 30px;
+    height: 29px;
 }
 
 .calculate:hover{
@@ -76,11 +76,6 @@
     border-radius: 5px;
     height: 100%;
     width: 350px;
-    /*background-color: #6e8a67b0;*/
-    /*border: solid;*/
-    /*border-color:#89ad808a;*/
-    /*border-width: 1px;*/
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .outputLeft{
@@ -94,8 +89,10 @@
 .outputRight{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: space-around;
+    width: 100%;
     height: 100%;
+    margin-left: auto;
     padding-left: 2px;
 }
 
@@ -152,7 +149,12 @@
 
 }
 
-@media only screen and (max-width: 745px) {
+.emissionsComingSoon {
+    color: #fff; 
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
     .emissionsContent{
         width: 300px;
     }
@@ -162,12 +164,31 @@
     }
 
     .emissionsBottom{
-        height: 150px;
+        height: 125px;
+    }
+
+    .summaryContainer {
+        margin-top: 10px;
+    }
+
+    .outputTextLeft{
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    
+    .outputTextRight{
+        font-size: 12px;
+        margin-top: 12px;
     }
 
     .summary{
         font-size: 10px;
         padding-left:20px;
         padding-right: 20px;
+    }
+
+    .emissionsComingSoon { 
+        font-size: 12px;
+        padding-top: 10px;
     }
   }
