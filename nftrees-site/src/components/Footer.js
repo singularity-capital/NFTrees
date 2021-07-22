@@ -12,7 +12,7 @@ function Footer (props){
            <div className = 'footerContent'>
                 <div className = 'footerLeft'>
                     <div className = 'footerImage'>
-                        <img src = {logo} height = {150} width = {150}/>
+                        <img className = 'footerImageImg' src = {logo} height = {150} width = {150}/>
                     </div>
                 </div>
 
