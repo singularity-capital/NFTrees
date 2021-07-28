@@ -31,11 +31,11 @@ function Home (props){
 
                 <div className = 'homeSpacer'/>
 
-                <div className = 'contentImage'> <img src = {amazonImage} height = {350} width = {500}/> </div>
+                <div className = 'contentImage'> <img className = 'contentImageImg' src = {amazonImage} height = {350} width = {500}/> </div>
             </div>
 
             <div className = 'contentBottom'>
-                <div className = 'contentImage'> <img src = {monkeyImage} height = {350} width = {500}/> </div>
+                <div className = 'contentImage'> <img className = 'contentImageImg' src = {monkeyImage} height = {350} width = {500}/> </div>
                 
                 <div className = 'homeSpacer'/>
 
@@ -51,6 +51,7 @@ function Home (props){
                         </p>
                     </div>
                 </div>
+
             </div>
 
             <div className = 'bannerBottom'>

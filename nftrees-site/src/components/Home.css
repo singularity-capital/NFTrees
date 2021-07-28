@@ -115,3 +115,185 @@
     margin: auto;
     color: #fff;
 }
+
+@media only screen and (max-width: 1200px) {
+    .homeContainer{
+        width: 100vw;
+        height: auto;
+        background-color: #F7F8FA;
+        padding-top: 50px;
+    }
+    
+    .bannerTop{
+        width: 600px;
+        font-size: 20px;
+    }
+    
+    .line{
+        width: 700px;
+        margin-top: 40px;
+    }
+    
+    .contentTop{
+        margin-top: 40px;
+        flex-direction: column;
+        height: auto;
+        width: 500px;
+    }
+    
+    .contentText{
+        margin-top: 0px;
+        height: auto;
+        width: 500px;
+        margin-bottom: 40px;
+    }
+    
+    .contentWrapperHome{
+        height: 250px;
+        margin-top: 0px;
+        margin-bottom: auto;
+    }
+    
+    .contentHeader{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 36px;
+    }
+    
+    .contentParagraph{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 16px;
+        color: #767679;
+        line-height: 24px;
+    }
+    
+    .homeSpacer{
+        width: 0px;
+    }
+    
+    .contentImage{
+        width: 500px;
+        height: 350px;
+        border-radius: 20px;
+        overflow:hidden;
+    }
+    
+    .contentBottom{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        width: 500px;
+    }
+    
+    .bannerBottom{
+        margin-top: 50px;
+        padding-top: 125px;
+    }
+    
+    .bannerBottomText{
+        font-size: 36px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .homeContainer{
+        width: 100vw;
+        height: auto;
+        background-color: #F7F8FA;
+        padding-top: 30px;
+    }
+    
+    .bannerTop{
+        width: 80%;
+        min-width: 300px;
+        font-size: 14px;
+    }
+    
+    .line{
+        width: 90%;
+        min-width: 325px;
+        margin-top: 20px;
+    }
+    
+    .contentTop{
+        margin-top: 20px;
+        width: 300px;
+    }
+    
+    .contentText{
+        margin-top: 0px;
+        height: auto;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    .contentWrapperHome{
+        height: 250px;
+        margin-top: 0px;
+        margin-bottom: auto;
+        height: auto;
+        width: 300px;
+    }
+    
+    .contentHeader{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .contentParagraph{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 12px;
+        color: #767679;
+        line-height: 16px;
+    }
+    
+    .homeSpacer{
+        width: 0px;
+    }
+    
+    .contentImage{
+        width: 300px;
+        height: 210px;
+        border-radius: 20px;
+        overflow:hidden;
+    }
+
+    .contentImageImg {
+        width: 300px;
+        height: 210px;
+    }
+    
+    .contentBottom{
+        margin-top: 20px;
+        height: auto;
+        width: 300px;
+    }
+    
+    .bannerBottom{
+        height: 250px;
+        margin-top: 40px;
+        padding-top: 90px;
+    }
+    
+    .bannerBottomText{
+        font-size: 20px;
+    }
+    
+    .bannerBottomButton{
+        height: 30px;
+        width: 125px;
+    }
+
+    .bannerBottomButtonText{
+        font-size: 12px;
+    }
+    
+  }
