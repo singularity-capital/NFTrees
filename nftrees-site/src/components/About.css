@@ -72,6 +72,11 @@
     border-radius: 20px;
 }
 
+.aboutLink {
+    color: #50B748;
+    text-decoration: none;
+}
+
 .bannerMiddleAbout {
     display: flex;
     flex-direction: row;
