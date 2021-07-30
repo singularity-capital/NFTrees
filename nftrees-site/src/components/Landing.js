@@ -18,7 +18,7 @@ function Landing (props){
                     <br></br>
                     Bringing verifiable carbon credits to the cryptocurrency space.
                     <br></br>
-                    Plant trees and offset your emmissions with carbon-negative NFTs.  
+                    Plant trees and offset your emissions with carbon-negative NFTs.  
 
                 </p>
 
