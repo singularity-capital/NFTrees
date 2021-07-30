@@ -89,6 +89,10 @@
         font-size: 60px;
     }
 
+    .buttonContainer {
+        width: 200px;
+    }
+
     .underline {
         width: 300px;
         height: 2px;
