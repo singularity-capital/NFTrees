@@ -27,7 +27,7 @@ function About (props){
                         <ul>
                             <li> 1 tonne of carbon offset </li>
                             <li> 1 tree planted </li>
-                            <li> NFT mint/trnasfer emissions offset </li>
+                            <li> NFT mint/transfer emissions offset </li>
                         </ul>
                         <p>
                             Higher-level NFTrees are scaled versions of the above and represent larger environmental contributions. 

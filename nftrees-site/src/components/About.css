@@ -106,3 +106,141 @@
     font-size: 44px;
     color: #fff;
 }
+
+@media only screen and (max-width: 1200px) {
+    .bannerTopAbout {
+        height: 300px;
+    }
+
+    .bannerTopTextAbout {
+        font-size: 48px;
+    }
+
+    .paragraphContainerAbout {
+        height: auto;
+        width: 600px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .contentTopAbout {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        width: 550px;
+        margin-top: 40px;
+        align-items: center;
+    }
+    
+    .contentTextAbout {
+        width: 500px;
+        height: auto;
+        margin-top: 40px;
+        font-size: 16px;
+    } 
+    
+    .contentWrapper {
+        height: min-content;
+    }
+    
+    .aboutSpacer {
+        width: 100px;
+    }
+    
+    .contentImageAbout {
+        height: 350px;
+        width: 500px;
+        background-image: url('../assets/plant_image.jpg');
+        background-size: auto 100%;
+        background-position: 50%;
+        border-radius: 20px;
+    }
+    
+    .bannerMiddleAbout {
+        height: 300px;
+        margin-top: 40px;
+    }
+    
+    .bannerMiddleTextAbout {
+        width: 650px;
+        font-size: 24px;
+    }
+
+    .bannerBottomAbout {
+        height: 300px;
+        margin-top: 40px;
+    }
+    
+    .bannerBottomTextAbout {
+        width: 650px;
+        font-size: 24px;
+    }
+}
+    
+    
+@media only screen and (max-width: 700px) {
+    .bannerTopAbout {
+        height: 200px;
+    }
+
+    .bannerTopTextAbout {
+        font-size: 36px;
+    }
+
+    .paragraphContainerAbout {
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .paragraph {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    
+    .contentTopAbout {
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .contentTextAbout {
+        width: 300px;
+        height: auto;
+        margin-top: 20px;
+        font-size: 10px;
+        line-height: 1.5;
+    } 
+    
+    .contentImageAbout {
+        height: 210px;
+        width: 300px;
+    }
+    
+    .bannerMiddleAbout {
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+    .bannerMiddleTextAbout {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .bannerBottomAbout {
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+    .bannerBottomTextAbout {
+        width: 300px;
+        font-size: 16px;
+    }
+
+
+
+}
