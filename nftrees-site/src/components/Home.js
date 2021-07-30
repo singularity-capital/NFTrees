@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import bannerImage from '../assets/banner_image_1.jpg';
 import monkeyImage from '../assets/monkey.jpeg';
 import amazonImage from '../assets/amazon.jpeg';
 
@@ -31,11 +30,11 @@ function Home (props){
 
                 <div className = 'homeSpacer'/>
 
-                <div className = 'contentImage'> <img className = 'contentImageImg' src = {amazonImage} height = {350} width = {500}/> </div>
+                <div className = 'contentImage'> <img className = 'contentImageImg' alt = '' src = {amazonImage} height = {350} width = {500}/> </div>
             </div>
 
             <div className = 'contentBottom'>
-                <div className = 'contentImage'> <img className = 'contentImageImg' src = {monkeyImage} height = {350} width = {500}/> </div>
+                <div className = 'contentImage'> <img className = 'contentImageImg' alt = '' src = {monkeyImage} height = {350} width = {500}/> </div>
                 
                 <div className = 'homeSpacer'/>
 

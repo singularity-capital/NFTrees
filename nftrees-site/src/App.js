@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from 'react';
 import './App.css';
-import Landing_Navbar from './components/Landing_Navbar';
+import LandingNavbar from './components/LandingNavbar';
 import Landing from './components/Landing';
 import Emissions from './components/Emissions';
 import Navbar from './components/Navbar';
@@ -16,23 +15,20 @@ import {
 
 function App() {
 
-  useEffect(() => {
-  }, [])
-
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
         <Switch>
           <Route exact path = '/'>
             <div className = 'landingBackground'>
-              <Landing_Navbar/>
+              <LandingNavbar/>
               <Landing/>
             </div>
           </Route>
 
           <Route exact path = '/emissions'>
             <div className = 'landingBackground'>
-             <Landing_Navbar/>
+             <LandingNavbar/>
               <Emissions/>
             </div>
           </Route>

@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import plantImage from '../assets/plant_image.jpg';
 
 function About (props){
     
