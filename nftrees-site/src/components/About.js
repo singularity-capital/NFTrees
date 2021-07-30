@@ -67,8 +67,9 @@ function About (props){
                     positive impact on the environment through the purchase of NFTrees. 
                     To help us achieve these goals, we are working with trustworthy and 
                     credible organizations that have extensive experience in the environmental 
-                    industry. NFTrees is partnering with Pachama to acquire carbon credits and Arbor 
-                    Day Foundation to plant trees. If you are interested in learning more you can read our docs here.
+                    industry. NFTrees is partnering with <a className = 'aboutLink' href = 'https://pachama.com/' rel='noreferrer' target = '_blank'>Pachama</a> to
+                    acquire carbon credits and <a className = 'aboutLink' href = 'https://www.arborday.org/' rel='noreferrer' target = '_blank'>Arbor Day Foundation</a> to
+                    plant trees. If you are interested in learning more you can read our docs <a className = 'aboutLink' href = 'https://docs.nftrees.com/' rel='noreferrer' target = '_blank'>here</a>.
                 </p>
             </div>
 
