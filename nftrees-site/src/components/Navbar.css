@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     font-size: 15px;
     height: 75px;
     display:flex;
@@ -13,30 +13,30 @@
 }
 
 
-.navbar-Brand{
+.navbar-Brand {
     height: 50px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.navbar-Link{
+.navbar-Link {
     color: #000;
     margin-top: auto;
     margin-bottom: auto;
     text-decoration: none;
 }
 
-.active-navbar-Link{
+.active-navbar-Link {
     color: rgb(165, 161, 161);
 }
 
-.address{
+.address {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
 }
 
-.enterAppButton{
+.enterAppButton {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -51,14 +51,14 @@
     background-color: #74CA86;
 }
 
-.enterAppButton:hover{
+.enterAppButton:hover {
     cursor: pointer;
-    background-color: #74ca87c4;
+    background-color: #93D5A0;
     transition: 0.5s;
 
 }
 
-.enterAppButtonText{
+.enterAppButtonText {
     margin: auto;
     color: #fff;
 }
@@ -70,27 +70,27 @@
   }
 
 @media only screen and (max-width: 700px) {
-    .navbar{
+    .navbar {
         font-size: 10px; 
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    .navbar-Brand{
+    .navbar-Brand {
         height: 40px;
         margin-top: auto;
         margin-bottom: auto;
         padding-left: 20px;
     }
 
-    .logoImageHome{
+    .logoImageHome {
         text-decoration: none;
         color: #fff;
         height: 40px;
         width: 40px;
     }
     
-    .navbar-Link{
+    .navbar-Link {
         text-decoration: none;
         margin-top: auto;
         margin-bottom: auto;
@@ -101,21 +101,21 @@
         width: 0px;
     }
 
-    .enterAppButton{
+    .enterAppButton {
         font-size: 10px;
         margin-right: 20px;
         height: 30px;
         width: 125px;
     }
     
-    .enterAppButton:hover{
+    .enterAppButton:hover {
         cursor: pointer;
         background-color: #74ca87c4;
         transition: 0.5s;
     
     }
     
-    .enterAppButtonText{
+    .enterAppButtonText {
         margin: auto;
         color: #fff;
     }

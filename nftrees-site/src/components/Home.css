@@ -1,18 +1,18 @@
-.homeContainer{
+.homeContainer {
     width: 100vw;
     height: auto;
     background-color: #F7F8FA;
     padding-top: 50px;
 }
 
-.bannerTop{
+.bannerTop {
     width: 912px;
     font-size: 36px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.line{
+.line {
     width: 1200px;
     height: 1px;
     background-color: grey;
@@ -21,7 +21,7 @@
     margin-right: auto;
 }
 
-.contentTop{
+.contentTop {
     display: flex;
     flex-direction: row;
     margin-top: 80px;
@@ -31,23 +31,23 @@
     width: 1100px;
 }
 
-.contentText{
+.contentText {
     width: 550px;
     height: 350px;
 }
 
-.contentWrapperHome{
+.contentWrapperHome {
     height: 250px;
     margin-top: 20px;;
     margin-bottom: auto;
 }
 
-.contentHeader{
+.contentHeader {
     text-align: left;
     font-size: 36px;
 }
 
-.contentParagraph{
+.contentParagraph {
     margin-top: 20px;
     text-align: left;
     font-size: 16px;
@@ -55,18 +55,18 @@
     line-height: 24px;
 }
 
-.homeSpacer{
+.homeSpacer {
     width: 50px;
 }
 
-.contentImage{
+.contentImage {
     width: 500px;
     height: 350px;
     border-radius: 20px;
     overflow:hidden;
 }
 
-.contentBottom{
+.contentBottom {
     display: flex;
     flex-direction: row;
     margin-top: 80px;
@@ -76,7 +76,7 @@
     width: 1100px;
 }
 
-.bannerBottom{
+.bannerBottom {
     margin-top: 80px;
     background-image: url('../assets/banner_image_1.jpg');
     background-size: cover;
@@ -84,13 +84,13 @@
     padding-top: 125px;
 }
 
-.bannerBottomText{
+.bannerBottomText {
     font-size: 44px;
     color: #fff;
     margin-bottom: 20px;
 }
 
-.bannerBottomButton{
+.bannerBottomButton {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -104,64 +104,64 @@
     background-color: #74CA86;
 }
 
-.bannerBottomButton:hover{
+.bannerBottomButton:hover {
     cursor: pointer;
-    background-color: #74ca87c4;
+    background-color: #93D5A0;
     transition: 0.5s;
 
 }
 
-.bannerBottomButtonText{
+.bannerBottomButtonText {
     margin: auto;
     color: #fff;
 }
 
 @media only screen and (max-width: 1200px) {
-    .homeContainer{
+    .homeContainer {
         width: 100vw;
         height: auto;
         background-color: #F7F8FA;
         padding-top: 50px;
     }
     
-    .bannerTop{
+    .bannerTop {
         width: 600px;
         font-size: 20px;
     }
     
-    .line{
+    .line {
         width: 700px;
         margin-top: 40px;
     }
     
-    .contentTop{
+    .contentTop {
         margin-top: 40px;
         flex-direction: column;
         height: auto;
         width: 500px;
     }
     
-    .contentText{
+    .contentText {
         margin-top: 0px;
         height: auto;
         width: 500px;
         margin-bottom: 40px;
     }
     
-    .contentWrapperHome{
+    .contentWrapperHome {
         height: 250px;
         margin-top: 0px;
         margin-bottom: auto;
     }
     
-    .contentHeader{
+    .contentHeader {
         margin-top: 0px;
         margin-bottom: 20px;
         text-align: center;
         font-size: 36px;
     }
     
-    .contentParagraph{
+    .contentParagraph {
         margin-top: 0px;
         text-align: center;
         font-size: 16px;
@@ -169,18 +169,18 @@
         line-height: 24px;
     }
     
-    .homeSpacer{
+    .homeSpacer {
         width: 0px;
     }
     
-    .contentImage{
+    .contentImage {
         width: 500px;
         height: 350px;
         border-radius: 20px;
         overflow:hidden;
     }
     
-    .contentBottom{
+    .contentBottom {
         margin-top: 40px;
         display: flex;
         flex-direction: column-reverse;
@@ -188,12 +188,12 @@
         width: 500px;
     }
     
-    .bannerBottom{
+    .bannerBottom {
         margin-top: 50px;
         padding-top: 125px;
     }
     
-    .bannerBottomText{
+    .bannerBottomText {
         font-size: 36px;
     }
     
@@ -201,38 +201,38 @@
 
 
   @media only screen and (max-width: 700px) {
-    .homeContainer{
+    .homeContainer {
         width: 100vw;
         height: auto;
         background-color: #F7F8FA;
         padding-top: 30px;
     }
     
-    .bannerTop{
+    .bannerTop {
         width: 80%;
         min-width: 300px;
         font-size: 14px;
     }
     
-    .line{
+    .line {
         width: 90%;
         min-width: 325px;
         margin-top: 20px;
     }
     
-    .contentTop{
+    .contentTop {
         margin-top: 20px;
         width: 300px;
     }
     
-    .contentText{
+    .contentText {
         margin-top: 0px;
         height: auto;
         width: 300px;
         margin-bottom: 20px;
     }
     
-    .contentWrapperHome{
+    .contentWrapperHome {
         height: 250px;
         margin-top: 0px;
         margin-bottom: auto;
@@ -240,14 +240,14 @@
         width: 300px;
     }
     
-    .contentHeader{
+    .contentHeader {
         margin-top: 0px;
         margin-bottom: 20px;
         text-align: center;
         font-size: 20px;
     }
     
-    .contentParagraph{
+    .contentParagraph {
         margin-top: 0px;
         text-align: center;
         font-size: 12px;
@@ -255,44 +255,44 @@
         line-height: 16px;
     }
     
-    .homeSpacer{
+    .homeSpacer {
         width: 0px;
     }
     
-    .contentImage{
+    .contentImage {
         width: 300px;
         height: 210px;
         border-radius: 20px;
         overflow:hidden;
     }
 
-    .contentImageImg {
+    .contentImageImg  {
         width: 300px;
         height: 210px;
     }
     
-    .contentBottom{
+    .contentBottom {
         margin-top: 20px;
         height: auto;
         width: 300px;
     }
     
-    .bannerBottom{
+    .bannerBottom {
         height: 250px;
         margin-top: 40px;
         padding-top: 90px;
     }
     
-    .bannerBottomText{
+    .bannerBottomText {
         font-size: 20px;
     }
     
-    .bannerBottomButton{
+    .bannerBottomButton {
         height: 30px;
         width: 125px;
     }
 
-    .bannerBottomButtonText{
+    .bannerBottomButtonText {
         font-size: 12px;
     }
     

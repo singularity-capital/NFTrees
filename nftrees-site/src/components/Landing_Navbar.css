@@ -1,16 +1,16 @@
-.navContainer{
+.navContainer {
     font-size: 15px;
     display: flex;
     flex-direction: row;
     height: 75px;
 }
 
-.navbarLeft{
+.navbarLeft {
     display: flex;
     flex-direction: row;
 }
 
-.logo{
+.logo {
     text-decoration: none;
     color: #fff;
     height: 50px;
@@ -19,7 +19,7 @@
     margin-bottom: auto;
 }
 
-.textLink{
+.textLink {
     text-decoration: none;
     color: #fff;
     padding-left: 50px;
@@ -27,50 +27,50 @@
     margin-bottom: auto;
 }
 
-.textLink:hover{
+.textLink:hover {
     color:rgb(199, 199, 199);
     transition: .5s;
 }
 
-.space{
+.space {
     margin:auto;
 }
 
-.navbarRight{
+.navbarRight {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.logoLink{
+.logoLink {
     padding-right: 30px;
     height: 30px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.icon:hover{
+.icon:hover {
     fill:rgb(199, 199, 199);
     transition: .5s;
 }
 
 @media only screen and (max-width: 700px) {
-    .navbarLeft{
+    .navbarLeft {
         font-size: 10px; 
     }
 
-    .navbarRight{
+    .navbarRight {
         margin-top: 30px;
         height: 120px;
         flex-direction: column;
     }
 
-    .logoLink{
+    .logoLink {
         padding-top: 0px;
         padding-right: 20px;
     }
 
-    .logo{
+    .logo {
         text-decoration: none;
         color: #fff;
         height: 40px;
@@ -82,14 +82,14 @@
         width: 40px;
     }
     
-    .textLink{
+    .textLink {
         text-decoration: none;
         color: #fff;
         padding-top: 0px;
         padding-left: 20px;
     }
 
-    .logoLink{
+    .logoLink {
         margin-top: 20px;
         padding-right: 30px;
         height: 30px;
