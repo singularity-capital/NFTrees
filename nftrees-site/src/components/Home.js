@@ -56,7 +56,7 @@ function Home (props){
             <div className = 'bannerBottom'>
                 <div className = 'bannerBottomText'> Go carbon negative with NFTrees </div>
                 <a className = 'bannerBottomButton'> 
-                    <div className = 'bannerBottomButtonText'> Get Started </div>
+                    <div className = 'bannerBottomButtonText'> App Coming Soon </div>
                 </a>
             </div>
         </div>

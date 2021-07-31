@@ -48,7 +48,7 @@ function Footer (props){
                         <div className = 'footerLinkContainer'>
                             <a className = 'footerLink' href = 'https://pachama.com/' rel='noreferrer' target = '_blank'> Pachama </a>
                             <a className = 'footerLink' href = 'https://www.arborday.org/' rel='noreferrer' target = '_blank'> Arbor Day </a>
-                            <a className = 'footerLink' href = 'https://opensea.io/collection/nftrees-com' rel='noreferrer' target = '_blank'> Open Sea </a>
+                            <a className = 'footerLink' href = 'https://opensea.io/collection/nftrees-carbon-credits' rel='noreferrer' target = '_blank'> Open Sea </a>
                             <a className = 'footerLink'> Contracts </a>
                         </div>
 
