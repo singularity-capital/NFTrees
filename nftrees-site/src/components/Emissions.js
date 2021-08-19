@@ -36,7 +36,7 @@ function Emissions (props){
 
         const address = document.getElementById('input').value;
 
-        const callableReturnMessage = firebase.functions().httpsCallable('test');
+        const callableReturnMessage = firebase.functions().httpsCallable('getEtherscanKey');
     
         await callableReturnMessage().then((result) => {
             apiKey = result.data.etherscanKey;

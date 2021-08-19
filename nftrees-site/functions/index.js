@@ -10,7 +10,7 @@ const functions = require("firebase-functions");
 //   response.send("Hello from Firebase!");
 // });
 
-exports.test = functions.https.onCall((data, context) => {
+exports.getEtherscanKey = functions.https.onCall((data, context) => {
   return {
     etherscanKey: functions.config().etherscan.key,
   };
