@@ -3,6 +3,9 @@ import './Emissions.css';
 import { calculateAddressEmissions } from "ethereum-emissions-calculator";
 import CountUp from 'react-countup';
 import ClipLoader from "react-spinners/ClipLoader";
+//import firebase from 'firebase/app';
+//import functions from "firebase/functions";
+import firebase from '../firebase';
 
 function Emissions (props){
     const[totalGas, setTotalGas] = useState(0);
@@ -11,6 +14,7 @@ function Emissions (props){
     const[validInput, setValidInput] = useState();
     const[calculating, setCalculating] = useState(false);
     var loading;
+    let apiKey;
 
     useEffect(() => {
         loading = document.querySelector('#loading');
@@ -28,9 +32,18 @@ function Emissions (props){
         var co2 = 0;
         var transactions = 0;
         var typeTransaction = ['eth', 'erc20', 'erc721'];
+        var apiKey;
 
         const address = document.getElementById('input').value;
-        const apiKey = process.env.REACT_APP_ETHERSCAN_API_KEY;
+
+        const callableReturnMessage = firebase.functions().httpsCallable('test');
+    
+        await callableReturnMessage().then((result) => {
+            apiKey = result.data.etherscanKey;
+        }).catch((error) => {
+          console.log(`error: ${JSON.stringify(error)}`);
+        });
+
         if((address.length === 42) & (address.slice(0, 2) === '0x')){
             for (var i = 0; i < 3; i++) {
                 const emissions = await calculateAddressEmissions({
