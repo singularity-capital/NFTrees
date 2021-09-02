@@ -3,9 +3,8 @@ import './Emissions.css';
 import { calculateAddressEmissions } from "ethereum-emissions-calculator";
 import CountUp from 'react-countup';
 import ClipLoader from "react-spinners/ClipLoader";
-//import firebase from 'firebase/app';
-//import functions from "firebase/functions";
 import firebase from '../firebase';
+import functions from "firebase/functions";
 
 function Emissions (props){
     const[totalGas, setTotalGas] = useState(0);
@@ -14,7 +13,6 @@ function Emissions (props){
     const[validInput, setValidInput] = useState();
     const[calculating, setCalculating] = useState(false);
     var loading;
-    let apiKey;
 
     useEffect(() => {
         loading = document.querySelector('#loading');

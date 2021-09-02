@@ -14,7 +14,7 @@ function Navbar (props){
             <p className = 'spacer'/>
             <NavLink exact activeClassName = 'active-navbar-Link' className = 'navbar-Link' to = '/about'> ABOUT </NavLink>
             <p className = 'spacer'/>
-            <a className = 'navbar-Link' href = 'https://docs.nftrees.com/' target = '_blank'> DOCS </a>
+            <a className = 'navbar-Link' href = 'https://docs.nftrees.com/' target = '_blank' rel='noreferrer'> DOCS </a>
             <p className = 'spacer'/>
 
             {/* display user address */}
