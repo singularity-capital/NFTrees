@@ -11,8 +11,10 @@ function Navbar (props){
         <div className = 'navContainer'>
             <div className = 'navbarLeft'>
                 <NavLink exact className = 'logo' to = '/'> <img className = 'logoImage' src = {logo} alt = 'logo' width = {50} height = {50}/> </NavLink>
-                <NavLink exact className = 'textLink' to = '/emissions'> CALCULATE EMISSIONS </NavLink>
+                <NavLink exact activeClassName = 'active-navbar-Link' className = 'textLink' to = '/home'> HOME </NavLink>
+                <NavLink exact activeClassName = 'active-navbar-Link' className = 'textLink' to = '/about'> ABOUT </NavLink>
                 <a className = 'textLink' href = 'https://docs.nftrees.com' rel='noreferrer' target = '_blank'> DOCS </a>
+                {/*<NavLink exact className = 'textLink' to = '/emissions'> CALCULATE EMISSIONS </NavLink>*/}
             </div>
             <div className = 'space'/>
             <div className = 'navbarRight'>
