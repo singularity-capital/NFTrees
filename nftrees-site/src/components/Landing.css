@@ -1,105 +1,105 @@
 .landingContainer {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: calc(100vh - 75px);
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: calc(100vh - 75px);
 }
 
 .spacer {
-    height: 20vh;
+  height: 20vh;
 }
 
 .landingContent {
-    width: 100vw;
-    margin: auto;
+  width: 100vw;
+  margin: auto;
 }
 
 .title {
-    font-size: 100px;
-    color: white;
-    font-family: 'Quicksand', sans-serif;
+  font-size: 100px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .underlineContainer {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .underline {
-    width: 500px;
-    height: 2px;
-    background-color: white;
+  width: 500px;
+  height: 2px;
+  background-color: white;
 }
 
 .information {
-    margin-top: 20px;
-    font-size: 20px;
-    color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
 }
 
 .buttonContainer {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 400px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px;
 }
 
 .landingButton {
-    height: 40px;
-    width: 175px;
-    border-radius: 20px;
-    border-width: 1px;
-    border-style: solid;
-    background-color: #fff;
-    color: #000;
-    font-size: 15px;
-    text-decoration: none;
+  height: 40px;
+  width: 175px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  text-decoration: none;
 }
 
 .landingButton:hover {
-    background-color: rgb(199, 199, 199);
-    transition: 0.5s;
+  background-color: rgb(199, 199, 199);
+  transition: 0.5s;
 }
 
 .landingButtonText {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
-    .title {
-        font-size: 80px;
-    }
-
-    .underline {
-        width: 400px;
-        height: 2px;
-    }
-
-    .information {
-        font-size: 14px;
-    }
+  .title {
+    font-size: 80px;
   }
 
-  @media only screen and (max-width: 700px) {
-    .title {
-        font-size: 60px;
-    }
-
-    .buttonContainer {
-        width: 200px;
-    }
-
-    .underline {
-        width: 300px;
-        height: 2px;
-    }
-    
-    .information {
-        font-size: 10px;
-    }
-
+  .underline {
+    width: 400px;
+    height: 2px;
   }
+
+  .information {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .buttonContainer {
+    width: 200px;
+  }
+
+  .underline {
+    width: 300px;
+    height: 2px;
+  }
+
+  .information {
+    font-size: 10px;
+  }
+
+}

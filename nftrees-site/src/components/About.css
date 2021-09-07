@@ -1,191 +1,191 @@
 .aboutContainer {
-    width: 100vw;
-    height: auto;
-    background-color: #F7F8FA;
+  width: 100vw;
+  height: auto;
+  background-color: #F7F8FA;
 }
 
 .bannerTopAbout {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
-    width: 100%;
-    background-image: url('../assets/banner_image_2.jpg');
-    background-size: 100% auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  background-image: url('../assets/banner_image_2.jpg');
+  background-size: 100% auto;
 }
 
 .bannerTopTextAbout {
-    font-size: 64px;
-    color: #fff;
-    text-align: center;
+  font-size: 64px;
+  color: #fff;
+  text-align: center;
 }
 
 .paragraphContainerAbout {
-    height: auto;
-    width: 900px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+  height: auto;
+  width: 900px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .paragraph {
-    font-size: 20px;
-    line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .contentTopAbout {
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 350px;
-    width: 1100px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width: 1100px;
 }
 
 .contentTextAbout {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 500px;
-    height: 350px;
-    text-align: left;
-    font-size: 16px;
-    line-height: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+  height: 350px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 2;
 } 
 
 .contentWrapper {
-    height: min-content;
+  height: min-content;
 }
 
 .aboutSpacer {
-    width: 100px;
+  width: 100px;
 }
 
 .contentImageAbout {
+  height: 350px;
+  width: 500px;
+  background-image: url('../assets/plant_image.jpg');
+  background-size: auto 100%;
+  background-position: 50%;
+  border-radius: 20px;
+}
+
+.aboutLink {
+  color: #50B748;
+  text-decoration: none;
+}
+
+.bannerMiddleAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  margin-top: 100px;
+  background-image: url('../assets/banner_image_3.jpg');
+  background-size: 100% auto;
+}
+
+.bannerMiddleTextAbout {
+  width: 1000px;
+  font-size: 44px;
+  color: #fff;
+}
+
+.bannerBottomAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  margin-top: 100px;
+  background-image: url('../assets/banner_image_4.jpg');
+  background-size: 100% auto;
+  background-position: 50% 40%;
+}
+
+.bannerBottomTextAbout {
+  width: 1000px;
+  font-size: 44px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bannerTopAbout {
+    height: 300px;
+  }
+
+  .bannerTopTextAbout {
+    font-size: 48px;
+  }
+
+  .paragraphContainerAbout {
+    height: auto;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .contentTopAbout {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 550px;
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .contentTextAbout {
+    width: 500px;
+    height: auto;
+    margin-top: 40px;
+    font-size: 16px;
+  } 
+
+  .contentWrapper {
+    height: min-content;
+  }
+
+  .aboutSpacer {
+    width: 100px;
+  }
+
+  .contentImageAbout {
     height: 350px;
     width: 500px;
     background-image: url('../assets/plant_image.jpg');
     background-size: auto 100%;
     background-position: 50%;
     border-radius: 20px;
-}
+  }
 
-.aboutLink {
-    color: #50B748;
-    text-decoration: none;
-}
+  .bannerMiddleAbout {
+    height: 300px;
+    margin-top: 40px;
+  }
 
-.bannerMiddleAbout {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 350px;
-    margin-top: 100px;
-    background-image: url('../assets/banner_image_3.jpg');
-    background-size: 100% auto;
-}
+  .bannerMiddleTextAbout {
+    width: 650px;
+    font-size: 24px;
+  }
 
-.bannerMiddleTextAbout {
-    width: 1000px;
-    font-size: 44px;
-    color: #fff;
-}
+  .bannerBottomAbout {
+    height: 300px;
+    margin-top: 40px;
+  }
 
-.bannerBottomAbout {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 350px;
-    margin-top: 100px;
-    background-image: url('../assets/banner_image_4.jpg');
-    background-size: 100% auto;
-    background-position: 50% 40%;
-}
-
-.bannerBottomTextAbout {
-    width: 1000px;
-    font-size: 44px;
-    color: #fff;
-}
-
-@media only screen and (max-width: 1200px) {
-    .bannerTopAbout {
-        height: 300px;
-    }
-
-    .bannerTopTextAbout {
-        font-size: 48px;
-    }
-
-    .paragraphContainerAbout {
-        height: auto;
-        width: 600px;
-        margin-top: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .paragraph {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-    
-    .contentTopAbout {
-        display: flex;
-        flex-direction: column-reverse;
-        height: auto;
-        width: 550px;
-        margin-top: 40px;
-        align-items: center;
-    }
-    
-    .contentTextAbout {
-        width: 500px;
-        height: auto;
-        margin-top: 40px;
-        font-size: 16px;
-    } 
-    
-    .contentWrapper {
-        height: min-content;
-    }
-    
-    .aboutSpacer {
-        width: 100px;
-    }
-    
-    .contentImageAbout {
-        height: 350px;
-        width: 500px;
-        background-image: url('../assets/plant_image.jpg');
-        background-size: auto 100%;
-        background-position: 50%;
-        border-radius: 20px;
-    }
-    
-    .bannerMiddleAbout {
-        height: 300px;
-        margin-top: 40px;
-    }
-    
-    .bannerMiddleTextAbout {
-        width: 650px;
-        font-size: 24px;
-    }
-
-    .bannerBottomAbout {
-        height: 300px;
-        margin-top: 40px;
-    }
-    
-    .bannerBottomTextAbout {
-        width: 650px;
-        font-size: 24px;
-    }
+  .bannerBottomTextAbout {
+    width: 650px;
+    font-size: 24px;
+  }
 }
     
     
