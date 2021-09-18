@@ -9,23 +9,38 @@ function Landing (props){
     <div className = 'landingContainer' id = 'landing'>
       <div className = 'landingContent'>
         <div className = 'spacer'/>
-        <div className = 'title'>NFTrees</div>
+        <div className = 'title'>Carbon Credits,<br></br>Tokenized</div>
         <div className = 'underlineContainer'>
           <div className = 'underline'></div>
         </div>
         <p className = 'information'>
-          The first NFT-backed carbon capture platform.
-          <br></br>
-          Bringing verifiable carbon credits to the cryptocurrency space.
+          Bridging the gap between crypto and the carbon markets.
           <br></br>
           Plant trees and offset your emissions with carbon-negative NFTs.  
         </p>
 
         <div className = 'buttonContainer'>
-          <NavLink exact className = 'landingButton' to = '/home'> <div className = 'landingButtonText'> Learn more </div> </NavLink>
-          {/*<button className = 'landingButton'> App coming soon </button>*/}
+          <a className = 'landingButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Enter App </div> </a>
+          <a className = 'landingButton' href = 'https://docs.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Documentation </div> </a>
         </div>
 
+      </div>
+      <div className = 'nftreeStats'>
+        <div className = 'statCol'>
+          NFTrees Minted
+          <br></br>
+          <div className = 'statValue'>23</div>
+        </div>
+        <div className = 'statCol'>
+          Carbon Offset
+          <br></br>
+          <div className = 'statValue'>45,000 kg</div>
+        </div>
+        <div className = 'statCol'>
+          Trees Planted
+          <br></br>
+          <div className = 'statValue'>45</div>
+        </div>
       </div>
     </div>
   );

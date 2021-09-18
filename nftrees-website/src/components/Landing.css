@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: calc(100vh - 75px);
+  height: calc(100vh - 100px);
 }
 
 .spacer {
@@ -15,9 +15,9 @@
 }
 
 .title {
-  font-size: 100px;
+  font-size: 70px;
+  font-weight: bold;
   color: white;
-  font-family: 'Quicksand', sans-serif;
 }
 
 .underlineContainer {
@@ -29,44 +29,69 @@
 .underline {
   width: 500px;
   height: 2px;
-  background-color: white;
+  background-color: none;
 }
 
 .information {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 400;
   color: white;
+  line-height: 40px;
 }
 
 .buttonContainer {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 400px;
+  width: 500px;
 }
 
 .landingButton {
-  height: 40px;
-  width: 175px;
-  border-radius: 20px;
-  border-width: 1px;
-  border-style: solid;
-  background-color: #fff;
-  color: #000;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #007f5f;
+  color: white;
   font-size: 15px;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .landingButton:hover {
-  background-color: rgb(199, 199, 199);
+  color: rgb(199, 199, 199);
   transition: 0.5s;
 }
 
 .landingButtonText {
-  margin-top: 10px;
+  margin-top: 14px;
+  color: white;
+}
+
+.nftreeStats {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 120px;
+  width: 100%;
+  background-color: none;
+  text-align: center;
+  column-count: 3;
+}
+
+.statCol {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+
+.statValue {
+  font-size: 40px;
 }
 
 @media only screen and (max-width: 1200px) {
