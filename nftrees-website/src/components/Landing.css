@@ -100,7 +100,7 @@
   right: 0pt;
   font-size: 12px;
   text-decoration: none !important;
-  color: #2C4655 !important;
+  color: #16242D !important;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -136,7 +136,7 @@
   }
   
   .statValue {
-    font-size: 15px;
+    font-size: 22px;
   }
 }
 
@@ -146,8 +146,8 @@
   }
 
   .information {
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 28px;
   }
 
   .buttonContainer {
@@ -155,9 +155,9 @@
   }
 
   .landingButton {
-    width: 100px;
-    height: 30px;
-    font-size:10px;
+    width: 120px;
+    height: 36px;
+    font-size: 14px;
   }
 
   .landingButtonText {
@@ -175,15 +175,16 @@
   }
   
   .statCol {
-    font-size: 10px;
+    display: none;
+    font-size: 18px;
     font-weight: 400;
     color: #fff;
-    line-height: 50px;
+    line-height: 24px;
     text-align: center;
   }
   
   .statValue {
-    font-size: 15px;
+    font-size: 18px;
   }
 
 }

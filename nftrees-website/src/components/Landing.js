@@ -41,7 +41,7 @@ class Landing extends React.Component{
             <div className = 'statValue'>0</div>
           </div>
         </div>
-        <a className = 'attribution' href="https://www.vecteezy.com/free-vector/forest">Forest Vectors by Vecteezy</a>
+        <a className = 'attribution' href="https://www.vecteezy.com/free-vector/forest" rel='noreferrer' target = '_blank'>Forest Vectors by Vecteezy</a>
       </div>
     );
   }
