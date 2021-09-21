@@ -10,7 +10,7 @@
   text-decoration: none;
   height: 50px;
   padding-left: 60px;
-  margin-top: 20px;
+  margin-top: 18px;
   display: flex;
   flex-direction: row;
 }
@@ -113,43 +113,22 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .navbarLeft {
-    font-size: 10px; 
-  }
-
-  .navbarRight {
-    margin-top: 30px;
-    height: 120px;
-    flex-direction: column;
-  }
-
-  .logoLink {
-    padding-top: 0px;
-    padding-right: 20px;
-  }
-
   .logo {
     text-decoration: none;
-    color: #fff;
-    height: 40px;
-    padding-left: 20px;
-  }
-
-  .logoImage {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
   }
 
   .textLink {
-    text-decoration: none;
-    color: #fff;
-    padding-top: 0px;
-    padding-left: 20px;
+    display: none;
   }
 
-  .logoLink {
-    margin-top: 20px;
-    padding-right: 30px;
-    height: 30px;
+  .launchButton {
+    display: none;
   }
+
+
 }
