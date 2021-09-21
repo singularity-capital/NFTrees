@@ -94,6 +94,15 @@
   font-size: 40px;
 }
 
+.attribution {
+  position: absolute;
+  bottom: 0pt;
+  right: 0pt;
+  font-size: 12px;
+  text-decoration: none !important;
+  color: #2C4655 !important;
+}
+
 @media only screen and (max-width: 1300px) {
   .spacer {
     height: 15vh;

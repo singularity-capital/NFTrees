@@ -1,12 +1,8 @@
 import React from 'react';
 import './Landing.css';
-import {NavLink} from "react-router-dom";
 
 class Landing extends React.Component{
-  constructor() {
-    super();
-  }
-  
+
   render() {
     return(
       <div className = 'landingContainer' id = 'landing'>
@@ -23,10 +19,10 @@ class Landing extends React.Component{
           </p>
   
           <div className = 'buttonContainer'>
-            <a className = 'landingButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Coming Soon </div> </a>
+            <div className = 'landingButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Coming Soon </div> </div>
             <a className = 'landingButton' href = 'https://docs.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Documentation </div> </a>
           </div>
-  
+        
         </div>
         <div className = 'nftreeStats'>
           <div className = 'statCol'>
@@ -45,6 +41,7 @@ class Landing extends React.Component{
             <div className = 'statValue'>0</div>
           </div>
         </div>
+        <a className = 'attribution' href="https://www.vecteezy.com/free-vector/forest">Forest Vectors by Vecteezy</a>
       </div>
     );
   }
