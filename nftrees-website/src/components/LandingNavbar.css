@@ -31,10 +31,12 @@
 }
 
 .launchButton {
+  display: flex; 
+  justify-content: center;
   margin-top: 32px;
   margin-right: 50px;
   height: 44px;
-  width: 160px;
+  width: 170px;
   border-radius: 10px;
   background-color: #52b788;
   color: rgb(138, 133, 133);
@@ -49,7 +51,6 @@
 }
 
 .launchButtonText {
-  margin-top: 8px;
   color: #16242d;
 }
 

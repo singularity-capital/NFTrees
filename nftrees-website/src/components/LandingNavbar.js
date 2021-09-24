@@ -36,7 +36,7 @@ class Navbar extends React.Component{
     return(
       <div className = 'navContainer'>
         <div className = 'navbarLeft'>
-          <NavLink exact className = 'logo' to = '/'> <img className = 'logoImage' src = {logo} alt = 'logo' width = {50} height = {50}/> <div className = 'landingTitle'>NF<div className = 'split'/>Trees</div></NavLink>
+          <NavLink exact className = 'logo' to = '/'> <img className = 'logoImage' src = {logo} alt = 'logo' height = {50}/> <div className = 'landingTitle'>NF<div className = 'split'/>Trees</div></NavLink>
         </div>
         <div className = 'space'/>
         <div className = 'navbarRight'>
