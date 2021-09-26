@@ -2,6 +2,30 @@ import React from 'react';
 import './Landing.css';
 
 class Landing extends React.Component{
+  constructor(props) {
+    super(props);
+
+    this.state = {
+        numMinted: 0,
+        carbonOffset: 0,
+        treesPlanted: 0,
+        isLoading: true,
+    };
+
+    this.setState = this.setState.bind(this);
+  }
+
+  componentDidMount = async() => {
+    var blockchainData = await this.props.getBlockchainData();
+
+    this.setState({
+      isLoading: false,
+      numMinted: blockchainData.numMinted,
+      carbonOffset: blockchainData.carbonOffset,
+      treesPlanted: blockchainData.treesPlanted
+    })
+  }
+
 
   render() {
     return(
@@ -28,17 +52,17 @@ class Landing extends React.Component{
           <div className = 'statCol'>
             NFTrees Minted
             <br></br>
-            <div className = 'statValue'>0</div>
+            <div className = 'statValue'>{this.state.numMinted}</div>
           </div>
           <div className = 'statCol'>
             Carbon Offset
             <br></br>
-            <div className = 'statValue'>0 kg</div>
+            <div className = 'statValue'>{this.state.carbonOffset} kg</div>
           </div>
           <div className = 'statCol'>
             Trees Planted
             <br></br>
-            <div className = 'statValue'>0</div>
+            <div className = 'statValue'>{this.state.treesPlanted}</div>
           </div>
         </div>
         <a className = 'attribution' href="https://www.vecteezy.com/free-vector/forest" rel='noreferrer' target = '_blank'>Forest Vectors by Vecteezy</a>
