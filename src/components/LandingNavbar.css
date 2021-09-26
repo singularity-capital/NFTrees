@@ -90,12 +90,7 @@
 }
 
 .dropdown-item:hover {
-  background-color: #96B7CA !important;
-}
-
-.textLink:hover {
-  color:rgb(199, 199, 199);
-  transition: .5s;
+  background-color: transparent !important;
 }
 
 .space {
