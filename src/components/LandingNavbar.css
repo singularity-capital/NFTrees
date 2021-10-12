@@ -112,9 +112,9 @@
 @media only screen and (max-width: 900px) {
   .logo {
     text-decoration: none;
-    height: 30px;
+    height: 50px;
     padding-left: 30px;
-    margin-top: 18px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
   }

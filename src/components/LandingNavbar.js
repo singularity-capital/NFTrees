@@ -7,9 +7,12 @@ import {FaTree} from 'react-icons/fa';
 import {CgFileDocument} from 'react-icons/cg';
 import {FaTwitter, FaGithub, FaDiscord} from 'react-icons/fa';
 import opensea_logo from '../assets/opensea_logo.png';
+import { slide as Menu } from 'react-burger-menu';
+import './Burger.css';
 
 
-class Navbar extends React.Component{
+class Navbar extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = { isResourcesOpen: false }
@@ -51,6 +54,15 @@ class Navbar extends React.Component{
             <NavDropdown.Item href="https://discord.gg/4Ke8vjmFey" target = "_blank"><FaDiscord style = {{marginRight: '10px'}}/>Discord</NavDropdown.Item>
             <NavDropdown.Item href="https://github.com/singularity-capital" target = "_blank"><FaGithub style = {{marginRight: '10px'}}/>Github</NavDropdown.Item>
           </NavDropdown>
+
+          <Menu right>
+            <a className="menu-item" href="https://offsetra.com/" target = "_blank"><FaTree style = {{marginRight: '10px'}}/>Offsetra</a>
+            <a className="menu-item" href="https://opensea.io/collection/nftrees-carbon-credits" target = "_blank"><img src = {opensea_logo} alt = 'OpenSea' style = {{marginRight: '10px', height: '15px'}}/>Opensea</a>
+            <a className="menu-item" href="https://docs.nftrees.com/" target = "_blank"><CgFileDocument style = {{marginRight: '10px'}}/>Documentation</a>
+            <a className="menu-item" href="https://twitter.com/NFTrees_" target = "_blank"><FaTwitter style = {{marginRight: '10px'}}/>Twitter</a>
+            <a className="menu-item" href="https://discord.gg/4Ke8vjmFey" target = "_blank"><FaDiscord style = {{marginRight: '10px'}}/>Discord</a>
+            <a className="menu-item" href="https://github.com/singularity-capital" target = "_blank"><FaGithub style = {{marginRight: '10px'}}/>Github</a>
+          </Menu>
 
           <div className = 'launchButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'launchButtonText'> Coming Soon </div> </div>
         </div>
