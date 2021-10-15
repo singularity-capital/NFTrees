@@ -25,8 +25,7 @@ class App extends React.Component {
 
     var blockchainData = {
       numMinted: await nftrees.methods.getNextTokenId().call() - 1,
-      carbonOffset: await nftrees.methods.carbonOffset().call(),
-      treesPlanted: await nftrees.methods.treesPlanted().call()
+      carbonOffset: await nftrees.methods.carbonOffset().call()*1000
     }
     
     return blockchainData;

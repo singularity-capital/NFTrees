@@ -62,7 +62,7 @@ class Landing extends React.Component{
           <div className = 'statCol'>
             Trees Planted
             <br></br>
-            <div className = 'statValue'>{this.state.treesPlanted}</div>
+            <div className = 'statValue'>{this.state.carbonOffset*6}</div>
           </div>
         </div>
         <a className = 'attribution' href="https://www.vecteezy.com/free-vector/forest" rel='noreferrer' target = '_blank'>Forest Vectors by Vecteezy</a>
