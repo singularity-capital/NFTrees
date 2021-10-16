@@ -15,17 +15,17 @@ class App extends React.Component {
   constructor() {
     super();
 
-    this.NFTREE_ADDRESS = '0x9e219c92F67D1693A3C991157636b13A342CE103';
+    this.NFTREE_ADDRESS = '0xa44929195B0c3AF215c6efbe5c295cc6b99F7C44';
   }
 
 
   getBlockchainData = async () => {
-    var web3 = new Web3("https://rinkeby.infura.io/v3/782109c6748c48d6b91c3eafa72b5292");
+    var web3 = new Web3("https://mainnet.infura.io/v3/782109c6748c48d6b91c3eafa72b5292");
     var nftrees = new web3.eth.Contract(NFTreeABI.abi, this.NFTREE_ADDRESS);
 
     var blockchainData = {
       numMinted: await nftrees.methods.getNextTokenId().call() - 1,
-      carbonOffset: await nftrees.methods.carbonOffset().call()*1000
+      carbonOffset: await nftrees.methods.carbonOffset().call()
     }
     
     return blockchainData;

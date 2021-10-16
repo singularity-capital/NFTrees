@@ -43,7 +43,7 @@ class Landing extends React.Component{
           </p>
   
           <div className = 'buttonContainer'>
-            <div className = 'landingButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Coming Soon </div> </div>
+            <a className = 'landingButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Enter App </div> </a>
             <a className = 'landingButton' href = 'https://docs.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Documentation </div> </a>
           </div>
         
@@ -57,12 +57,12 @@ class Landing extends React.Component{
           <div className = 'statCol'>
             Carbon Offset
             <br></br>
-            <div className = 'statValue'>{this.state.carbonOffset} kg</div>
+            <div className = 'statValue'>{(this.state.carbonOffset*1000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} kg</div>
           </div>
           <div className = 'statCol'>
             Trees Planted
             <br></br>
-            <div className = 'statValue'>{this.state.carbonOffset*6}</div>
+            <div className = 'statValue'>{(this.state.carbonOffset*6).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
           </div>
         </div>
         <a className = 'attribution' href="https://www.vecteezy.com/free-vector/forest" rel='noreferrer' target = '_blank'>Forest Vectors by Vecteezy</a>
