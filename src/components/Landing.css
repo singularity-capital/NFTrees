@@ -118,6 +118,7 @@
   }
 
   .nftreeStats {
+    height: 100px;
     position: fixed;
     left: 0;
     width: 100%;
@@ -136,21 +137,23 @@
   
   .statValue {
     font-size: 22px;
+    line-height: 30px;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 770px) {
   .title {
     font-size: 36px;
   }
 
+  /*
   .information {
     margin: auto;
     width: 90%;
     font-size: 18px;
     line-height: 30px;
     padding-top: 20px;
-  }
+  }*/
 
   .buttonContainer {
     width: 300px;
@@ -167,12 +170,12 @@
   }
 
   .nftreeStats {
-    height: 100px;
+    height: 66px;
   }
 
   .statCol {
     font-size: 16px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
   .statValue {
@@ -181,7 +184,139 @@
 
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 650px) {
+  .information {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .statCol {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .statValue {
+    font-size: 16px;
+  }
+
+  .nftreeStats {
+    height: 60px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .information {
+    font-size: 14px !important;
+  }
+
+  /*
+  .buttonContainer {
+    width: 260px;
+  }
+
+  .landingButton {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .landingButtonText {
+    margin-top: 6px;
+  }*/
+}
+
+@media only screen and (max-width: 370px) {
+  .landingTitle {
+    font-size: 24px;
+    margin-left: 6px;
+  }
+  .statCol {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .statValue {
+    font-size: 14px;
+  }
+
+  .nftreeStats {
+    height: 42px;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) and (max-height: 420px) {
+  .nftreeStats {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 640px) and (max-height: 440px) {
+  .nftreeStats {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 520px) and (max-height: 320px) {
+  .title {
+    font-size: 20px !important;
+  }
+
+  .information {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .information {
+    font-size: 14px;
+  }
+
+  .buttonContainer {
+    width: 260px;
+  }
+
+  .landingButton {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .landingButtonText {
+    margin-top: 6px;
+  }
+
+  .attribution {
+    display: none;
+  }
+
+  .statCol {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .statValue {
+    font-size: 12px;
+  }
+
+  .nftreeStats {
+    height: 42px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
   .nftreeStats {
     display: none;
   }
@@ -189,58 +324,125 @@
 
 @media only screen and (max-height: 750px) {
   .spacer {
-    height: 8vh;
+    height: 12vh;
   }
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 700px) and (min-width: 770px) {
   .spacer {
-    height: 16vh;
+    height: 6vh;
   }
 
   .title {
-    font-size: 50px;
+    font-size: 46px;
   }
 
   .information {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .spacer {
-    height: 0;
-  }
-}
-
-@media only screen and (max-height: 550px) {
-  .title {
-    font-size: 36px;
-  }
-
-  .information {
-    font-size: 20px;
-    line-height: 32px;
-  }
-
-  .buttonContainer {
-    width: 400px;
+    font-size: 24px;
+    line-height: 42px;
   }
 
   .landingButton {
-    width: 160px;
-    height: 36px;
+    width: 180px;
+    height: 46px;
+    font-size: 16px;
+  }
+
+  .landingButtonText {
+    margin-top: 10px;
+  }
+
+  .statCol {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .statValue {
+    font-size: 24px;
+  }
+
+  .nftreeStats {
+    height: 66px;
+  }
+  
+}
+
+@media only screen and (max-height: 530px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .information {
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 0;
+  }
+
+  .buttonContainer {
+    margin-top: 0;
+  }
+
+  .landingButton {
+    width: 120px;
+    height: 34px;
     font-size: 12px;
   }
 
   .landingButtonText {
     margin-top: 8px;
   }
+}
 
-  .spacer {
-    height: 0;
+@media only screen and (max-height: 480px) and (max-width: 310px) {
+  .nftreeStats {
+    display: none !important; 
+  }
+}
+
+@media only screen and (max-height: 450px) and (max-width: 580px) {
+  .title {
+    font-size: 24px;
   }
 
-  .nftreeStats {
+  /*
+  .information {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+  }*/
+
+  .landingButton {
+    width: 120px;
+    height: 32px;
+    font-size: 10px;
+  }
+
+  .landingButtonText {
+    margin-top: 8px;
+  }
+
+  .attribution {
     display: none;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .nftreeStats {
+    height: 60px;
+  }
+
+  .statCol {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .statValue {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-height: 380px) {
+  .nftreeStats {
+    display: none !important;
   }
 }

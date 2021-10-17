@@ -64,7 +64,7 @@ class Navbar extends React.Component {
             <a className="menu-item" href="https://github.com/singularity-capital" target = "_blank" rel="noreferrer"><FaGithub style = {{marginRight: '10px'}}/>Github</a>
           </Menu>
 
-          <a className = 'launchButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'launchButtonText'> Launch </div> </a>
+          <div className = 'launchButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'launchButtonText'> Coming Soon </div> </div>
         </div>
       </div>
     );
