@@ -46,7 +46,7 @@ class Navbar extends React.Component {
           <NavDropdown title="Resources" renderMenuOnMount={true} id="resources" className = 'textLink' onMouseEnter = {this.handleResourcesOpen} onMouseLeave = { this.handleResourcesClose } show={this.state.isResourcesOpen}>
             <NavDropdown.Item href = "https://offsetra.com/profile/NFTrees" target = "_blank"><FaTree style = {{marginRight: '10px'}}/>Offsetra</NavDropdown.Item>
             <NavDropdown.Item href = "https://opensea.io/collection/nftrees-carbon-credits" target = "_blank"><img src = {opensea_logo} alt = 'OpenSea' style = {{marginRight: '10px', height: '15px'}}/>OpenSea</NavDropdown.Item>
-            <NavDropdown.Item href = "https://docs.nftrees.com/" target = "_blank"><CgFileDocument style = {{marginRight: '10px'}}/>Documention</NavDropdown.Item>
+            <NavDropdown.Item href = "https://docs.nftrees.eco/" target = "_blank"><CgFileDocument style = {{marginRight: '10px'}}/>Documention</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown title="Community" id="community" className = 'textLink' onMouseEnter = {this.handleCommunityOpen} onMouseLeave = { this.handleCommunityClose } show={this.state.isCommunityOpen}>
@@ -58,13 +58,13 @@ class Navbar extends React.Component {
           <Menu right>
             <a className="menu-item" href="https://offsetra.com/profile/NFTrees" target = "_blank" rel="noreferrer"><FaTree style = {{marginRight: '10px'}}/>Offsetra</a>
             <a className="menu-item" href="https://opensea.io/collection/nftrees-carbon-credits" target = "_blank" rel="noreferrer"><img src = {opensea_logo} alt = 'OpenSea' style = {{marginRight: '10px', height: '15px'}}/>Opensea</a>
-            <a className="menu-item" href="https://docs.nftrees.com/" target = "_blank" rel="noreferrer"><CgFileDocument style = {{marginRight: '10px'}}/>Documentation</a>
+            <a className="menu-item" href="https://docs.nftrees.eco/" target = "_blank" rel="noreferrer"><CgFileDocument style = {{marginRight: '10px'}}/>Documentation</a>
             <a className="menu-item" href="https://twitter.com/NFTrees_" target = "_blank" rel="noreferrer"><FaTwitter style = {{marginRight: '10px'}}/>Twitter</a>
             <a className="menu-item" href="https://discord.gg/4Ke8vjmFey" target = "_blank" rel="noreferrer"><FaDiscord style = {{marginRight: '10px'}}/>Discord</a>
             <a className="menu-item" href="https://github.com/singularity-capital" target = "_blank" rel="noreferrer"><FaGithub style = {{marginRight: '10px'}}/>Github</a>
           </Menu>
 
-          <a className = 'launchButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'launchButtonText'> Launch </div> </a>
+          <a className = 'launchButton' href = 'https://app.nftrees.eco' rel='noreferrer' target = '_blank'> <div className = 'launchButtonText'> Launch </div> </a>
         </div>
       </div>
     );
