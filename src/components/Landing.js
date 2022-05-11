@@ -43,8 +43,8 @@ class Landing extends React.Component{
           </p>
   
           <div className = 'buttonContainer'>
-            <a className = 'landingButton' href = 'https://app.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Enter App </div> </a>
-            <a className = 'landingButton' href = 'https://docs.nftrees.com' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Documentation </div> </a>
+            <a className = 'landingButton' href = 'https://app.nftrees.eco' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Enter App </div> </a>
+            <a className = 'landingButton' href = 'https://docs.nftrees.eco' rel='noreferrer' target = '_blank'> <div className = 'landingButtonText'> Documentation </div> </a>
           </div>
         
         </div>
